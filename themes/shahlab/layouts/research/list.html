@@ -13,10 +13,10 @@
     {{ if .Pages }}
     <div class="research-grid">
       {{ range .Pages.ByWeight }}
-        <a href="{{ .Permalink }}" class="research-card" style="text-decoration:none;color:inherit;">
+        <a href="{{ .RelPermalink }}" class="research-card" style="text-decoration:none;color:inherit;">
           {{ with .Params.icon }}<span class="card-icon">{{ . }}</span>{{ end }}
           <h3 class="card-title">{{ .Title }}</h3>
-          <p class="card-text">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
+          <p class="card-text">{{ with .Params.summary }}{{ . }}{{ end }}</p>
           {{ with .Params.tags }}
             <div class="card-tags">
               {{ range . }}<span class="badge badge-outline">{{ . }}</span>{{ end }}

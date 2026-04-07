@@ -17,7 +17,7 @@
         {{ range .Pages }}
           <div class="card" style="margin-bottom:1rem;">
             <p class="card-meta">{{ .Date.Format "January 2, 2006" }}{{ with .Params.category }} &middot; <span class="text-accent" style="font-weight:600;font-size:0.82rem;text-transform:uppercase;letter-spacing:0.04em;">{{ . }}</span>{{ end }}</p>
-            <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             {{ with .Summary }}<p class="card-text">{{ . }}</p>{{ end }}
           </div>
         {{ end }}

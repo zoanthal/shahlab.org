@@ -4,7 +4,7 @@
   <div class="hero-content">
     <h1>O'Reilly-Shah Lab</h1>
     <p class="tagline">Perioperative Data Science &middot; Neuroscience &middot; Consciousness</p>
-    <p>We develop computational methods for perioperative medicine, build clinical informatics systems, and investigate the theoretical neuroscience of consciousness. Our work connects rigorous mathematics with patient outcomes.</p>
+    <p>Computational methods for perioperative medicine, clinical informatics systems, and the theoretical neuroscience of consciousness. Connecting rigorous mathematics with patient outcomes.</p>
     <div class="hero-actions">
       <a href="{{ "research/" | relURL }}" class="btn btn-primary">Our Research</a>
       <a href="{{ "publications/" | relURL }}" class="btn btn-outline">Publications</a>
@@ -19,24 +19,24 @@
     <p class="section-subtitle text-center">Three interconnected research programs spanning clinical practice and theory.</p>
     <div class="research-grid">
 
-      <a href="{{ "research/perioperative-data-science/" | relURL }}" class="research-card" style="text-decoration:none;color:inherit;">
-        <span class="card-icon">&#128200;</span>
-        <h3 class="card-title">Perioperative Data Science</h3>
-        <p class="card-text">Large-scale analysis of electronic health records and intraoperative physiological data to improve surgical outcomes and patient safety.</p>
-        <span class="card-link">Learn more &rarr;</span>
-      </a>
-
-      <a href="{{ "research/clinical-informatics/" | relURL }}" class="research-card" style="text-decoration:none;color:inherit;">
-        <span class="card-icon">&#128269;</span>
-        <h3 class="card-title">Clinical Informatics</h3>
-        <p class="card-text">Design and implementation of health information systems, clinical decision support, and quality improvement tools for perioperative care.</p>
-        <span class="card-link">Learn more &rarr;</span>
-      </a>
-
       <a href="{{ "research/consciousness-science/" | relURL }}" class="research-card" style="text-decoration:none;color:inherit;">
         <span class="card-icon">&#129504;</span>
         <h3 class="card-title">Consciousness Science</h3>
-        <p class="card-text">Theoretical neuroscience of consciousness, with a focus on mathematical frameworks connecting dynamical systems theory, recurrent computation, and anesthetic state transitions.</p>
+        <p class="card-text">The State Space Theory of consciousness proposes that consciousness is constituted by hierarchical delay coordinate embedding in recurrent neural networks. The same mathematics explains why anesthesia eliminates awareness.</p>
+        <span class="card-link">Learn more &rarr;</span>
+      </a>
+
+      <a href="{{ "research/perioperative-data-science/" | relURL }}" class="research-card" style="text-decoration:none;color:inherit;">
+        <span class="card-icon">&#128200;</span>
+        <h3 class="card-title">Perioperative Data Science</h3>
+        <p class="card-text">Machine learning, NLP, and large-scale analytics applied to EHR and intraoperative physiological data. The goal is to identify what drives surgical outcomes and to build systems that improve them.</p>
+        <span class="card-link">Learn more &rarr;</span>
+      </a>
+
+      <a href="{{ "research/computational-neuroscience/" | relURL }}" class="research-card" style="text-decoration:none;color:inherit;">
+        <span class="card-icon">&#128300;</span>
+        <h3 class="card-title">Computational Neuroscience</h3>
+        <p class="card-text">Testing predictions from the State Space Theory using neural networks, LLMs, and computational simulations of recurrent circuits.</p>
         <span class="card-link">Learn more &rarr;</span>
       </a>
 
@@ -49,26 +49,18 @@
   <div class="container">
     <div class="pi-profile">
       <div class="pi-photo-wrap">
-        {{ with .Site.Params.piPhoto }}
-          <img class="pi-photo" src="{{ . | relURL }}" alt="Dr. Vikas N. O'Reilly-Shah">
-        {{ else }}
-          <div class="pi-photo" style="display:flex;align-items:center;justify-content:center;background:var(--color-bg-light);">
-            <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width:60px;height:60px;color:var(--color-text-light);opacity:0.4;">
-              <circle cx="60" cy="45" r="22" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M20 105 C20 80 40 67 60 67 C80 67 100 80 100 105" stroke="currentColor" stroke-width="2.5" fill="none"/>
-            </svg>
-          </div>
-        {{ end }}
+        <img class="pi-photo" src="/img/headshot.jpg" alt="Dr. Vikas N. O'Reilly-Shah">
+        <img class="pi-photo-fun" src="/img/vikas_dangerboy.jpg" alt="Vikas in his natural habitat" style="margin-top:1rem;border-radius:8px;max-width:100%;">
         <div class="pi-links">
           {{ with .Site.Params.scholar }}<a href="{{ . }}" class="badge badge-outline" target="_blank" rel="noopener">Scholar</a>{{ end }}
-          {{ with .Site.Params.github }}<a href="https://github.com/{{ . }}" class="badge badge-outline" target="_blank" rel="noopener">GitHub</a>{{ end }}
+          {{ with .Site.Params.github }}<a href="{{ . }}" class="badge badge-outline" target="_blank" rel="noopener">GitHub</a>{{ end }}
         </div>
       </div>
 
       <div class="pi-bio">
         <h2>Vikas N. O'Reilly-Shah, M.D., Ph.D.</h2>
         <p class="pi-title">Professor of Anesthesiology &amp; Pain Medicine, University of Washington</p>
-        <p>Professor of Anesthesiology &amp; Pain Medicine at the University of Washington and Seattle Children's Hospital. Director of the Center for Pain and Perioperative initiatives in Quality Safety and Outcomes (PPiQSO). Board certified in Anesthesiology, Pediatric Anesthesiology, and Clinical Informatics. My work spans perioperative data science, clinical informatics, and the theoretical neuroscience of consciousness.</p>
+        <p>I am a pediatric anesthesiologist at Seattle Children's Hospital and Professor of Anesthesiology and Pain Medicine at the University of Washington. I take care of children in the OR, run PPiQSO (our center for perioperative quality and outcomes), and chair the ASA Committee on Informatics. My primary theoretical work is the State Space Theory of consciousness, which grounds conscious experience in the mathematics of recurrent dynamical systems. Outside the main research programs, I have published on the use of emoji in biomedical literature and co-authored a book of bee puns.</p>
 
         <div class="education-timeline">
           <div class="education-entry">
@@ -76,11 +68,11 @@
             <div class="education-institution">Vanderbilt University (MSTP)</div>
           </div>
           <div class="education-entry">
-            <div class="education-degree">Residency &mdash; Anesthesiology</div>
+            <div class="education-degree">Residency, Anesthesiology</div>
             <div class="education-institution">Stanford University</div>
           </div>
           <div class="education-entry">
-            <div class="education-degree">Fellowship &mdash; Pediatric Anesthesiology</div>
+            <div class="education-degree">Fellowship, Pediatric Anesthesiology</div>
             <div class="education-institution">Stanford University</div>
           </div>
           <div class="education-entry">
@@ -103,7 +95,7 @@
       {{ range first 4 (sort $news ".Date" "desc") }}
         <div class="card" style="margin-bottom:1rem;">
           <p class="card-meta">{{ .Date.Format "January 2, 2006" }}</p>
-          <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           {{ with .Summary }}<p class="card-text">{{ . }}</p>{{ end }}
         </div>
       {{ end }}

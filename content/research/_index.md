@@ -4,26 +4,29 @@ date: 2024-01-01
 weight: 1
 ---
 
-## Research Areas
+## Research
 
-O'Reilly-Shah Lab research spans five interconnected programs.
+I work on two main problems. The first is consciousness: what it is, physically, and how the mathematics of dynamical systems gives us a real answer. The second is perioperative data science: using machine learning, NLP, and large-scale analytics to make surgery safer.
 
-### [Perioperative Data Science & Clinical Informatics](/research/perioperative-data-science/)
+These programs are connected. Computational neuroscience and LLM interpretability work sits between them, using language models as testbeds for predictions that come out of the consciousness theory. The same geometric and topological ideas appear in both programs.
 
-Machine learning, NLP, and large-scale analytics applied to perioperative outcomes. Work includes ASA Physical Status prediction from clinical text using NLP, LLM capabilities in perioperative risk prediction, cardiac arrest prediction from EHR data, perioperative quality metrics and disparities analysis through MPOG/ASPIRE, and bias and ethics in automated risk assessment.
+### Main Programs
 
-### [Consciousness Science (State Space Theory)](/research/consciousness-science/)
+**[Consciousness Science (State Space Theory)](/research/consciousness-science/)**
+The State Space Theory of consciousness, its metaphysical framework (Computational Dynamic Monism), and the mathematical foundations that make it precise. This is my primary theoretical research program. Published in *Journal of Consciousness Studies* (2025), with extensions forthcoming in *Nonlinear Dynamics, Psychology, and Life Sciences* (2026).
 
-Development of the State Space Theory (SST) of consciousness and its metaphysical framework, Computational Dynamic Monism (CDM). SST proposes that consciousness is constituted by hierarchical delay coordinate embedding in plastic recurrent neural networks. Published in *Journal of Consciousness Studies* (2025), with the unification paper forthcoming in *Nonlinear Dynamics, Psychology, and Life Sciences*. Collaborations on mathematical foundations (smooth embeddings in contracting networks) and philosophical implications (the unfolding argument, Chinese Room argument).
+**[Perioperative Data Science](/research/perioperative-data-science/)**
+Machine learning, NLP, and multicenter analytics for surgical and anesthetic outcomes. LLM evaluation for clinical risk prediction. Cardiac arrest prediction. National quality benchmarking through MPOG. Published in *JAMA Surgery*, *Circulation*, and others.
 
-### [Computational Neuroscience & LLM Interpretability](/research/computational-neuroscience/)
+### Connecting Work
 
-Experimental work probing representational geometry in large language models as computational analogs for neural state space theories. Studies on activation reshaping effectiveness across network layers, cross-domain binding via perturbation, and topological preservation across architectures (LSTM, Transformer, Mamba).
+**[Computational Neuroscience & LLM Interpretability](/research/computational-neuroscience/)**
+Using large language models as computational analogs to test SST's predictions about representational geometry, binding, and topological structure. The dreaming experiments. The intervention window finding. Function space topology across architectures.
 
-### [Pediatric Anesthesiology & Perioperative Quality](/research/pediatric-perioperative/)
+### Ongoing Clinical Research
 
-Clinical research in pediatric perioperative outcomes including enhanced recovery programs, sugammadex and neuromuscular blockade, perioperative hypothermia, and quality improvement initiatives. Dr. O'Reilly-Shah chairs the MPOG ASPIRE Pediatric Quality Committee.
+**[Pediatric Perioperative Quality](/research/pediatric-perioperative/)**
+Quality improvement and outcomes research for children undergoing surgery. I chair the MPOG ASPIRE Pediatric Quality Committee. ERAS protocols, sugammadex, hypothermia prevention.
 
-### [Mobile Health & Clinical Decision Support](/research/mobile-health/)
-
-Development of the Anesthesiologist app (500,000+ downloads), SUGARx diabetes management app, and other clinical decision support tools. Research on mobile technology adoption, global health informatics, and in-app survey methodology.
+**[Mobile Health & Clinical Decision Support](/research/mobile-health/)**
+The Anesthesiologist app (500,000+ downloads) and other clinical tools. A clinical tool and research platform used in nearly every country.

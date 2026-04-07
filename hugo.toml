@@ -8,9 +8,10 @@ paginate = 20
   description = "Perioperative Data Science & Consciousness Science"
   author = "Vikas N. O'Reilly-Shah, M.D., Ph.D."
   tagline = "Perioperative Data Science · Neuroscience · Consciousness"
-  email = "vors@uw.edu"
-  github = "https://github.com/oreillyshah"
-  googleScholar = "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
+  email = "voreill@uw.edu"
+  github = "https://github.com/zoanthal"
+  googleScholar = "https://scholar.google.com/citations?user=1iS-kdwAAAAJ"
+  piPhoto = "/img/headshot.jpg"
 
 [menu]
   [[menu.main]]

@@ -12,7 +12,7 @@
   {{ if .Pages }}
     {{ range .Pages }}
       <div class="card" style="margin-bottom:1.25rem;">
-        <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         {{ with .Params.date }}<p class="card-meta">{{ .Format "January 2, 2006" }}</p>{{ end }}
         {{ with .Summary }}<p class="card-text">{{ . }}</p>{{ end }}
       </div>
