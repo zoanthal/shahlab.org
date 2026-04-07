@@ -10,11 +10,11 @@ weight: 6
 
 **SST unification paper accepted.** The paper extending the State Space Theory of consciousness and connecting it to IIT, Global Workspace Theory, and Higher-Order Theories has been accepted at *Nonlinear Dynamics, Psychology, and Life Sciences*.
 
-**Smooth embeddings paper submitted.** Joint work with Alessandro Selvitella on the mathematical foundations of SST: smooth embeddings in contracting recurrent networks. Submitted to *PLOS Computational Biology*.
+**Smooth embeddings paper.** Joint work with Alessandro Selvitella on the mathematical foundations of SST: smooth embeddings in contracting recurrent networks driven by regular dynamics.
 
 ### 2025
 
-**CDM paper submitted.** Computational Dynamic Monism, the metaphysical framework underlying SST, has been submitted to *Synthese*.
+**CDM paper.** Computational Dynamic Monism, the metaphysical framework underlying SST.
 
 **SST published.** The State Space Theory of consciousness is published in the *Journal of Consciousness Studies*.
 
