@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section class="hero hero-inner">
+  <div class="hero-content">
+    <h1>{{ .Title | default "News & Updates" }}</h1>
+    {{ with .Description }}<p class="tagline">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:var(--max-width-prose);">
+    {{ .Content }}
+
+    {{ if .Pages }}
+      {{ $grouped := .Pages.GroupByDate "2006" }}
+      {{ range $grouped }}
+        <h2 style="font-size:1.35rem;margin-top:2rem;margin-bottom:1rem;padding-bottom:0.4rem;border-bottom:2px solid var(--color-accent);display:inline-block;">{{ .Key }}</h2>
+        {{ range .Pages }}
+          <div class="card" style="margin-bottom:1rem;">
+            <p class="card-meta">{{ .Date.Format "January 2, 2006" }}{{ with .Params.category }} &middot; <span class="text-accent" style="font-weight:600;font-size:0.82rem;text-transform:uppercase;letter-spacing:0.04em;">{{ . }}</span>{{ end }}</p>
+            <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            {{ with .Summary }}<p class="card-text">{{ . }}</p>{{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

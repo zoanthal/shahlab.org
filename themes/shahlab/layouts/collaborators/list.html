@@ -1,0 +1,60 @@
+{{ define "main" }}
+<section class="hero hero-inner">
+  <div class="hero-content">
+    <h1>{{ .Title | default "Collaborators" }}</h1>
+    {{ with .Description }}<p class="tagline">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ .Content }}
+
+    {{/* Content-based collaborators */}}
+    {{ if .Pages }}
+    <div class="collaborators-grid">
+      {{ range .Pages.ByWeight }}
+        <div class="collaborator-card">
+          {{ with .Params.photo }}
+            <img class="collaborator-photo" src="{{ . | relURL }}" alt="{{ $.Title }}">
+          {{ else }}
+            <div class="collaborator-photo" style="display:flex;align-items:center;justify-content:center;background:var(--color-bg-light);">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width:36px;height:36px;color:var(--color-text-light);opacity:0.35;">
+                <circle cx="40" cy="30" r="14" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M14 72 C14 54 26 46 40 46 C54 46 66 54 66 72" stroke="currentColor" stroke-width="1.5" fill="none"/>
+              </svg>
+            </div>
+          {{ end }}
+          <h3 class="collaborator-name">
+            {{ with .Params.website }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $.Title }}</a>{{ else }}{{ .Title }}{{ end }}
+          </h3>
+          {{ with .Params.affiliation }}<p class="collaborator-affiliation">{{ . }}</p>{{ end }}
+          {{ with .Params.area }}<p class="collaborator-topic">{{ . }}</p>{{ end }}
+        </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Data-driven collaborators */}}
+    {{ with hugo.Data.collaborators }}
+    <div class="collaborators-grid" {{ if $.Pages }}style="margin-top:2rem;"{{ end }}>
+      {{ range . }}
+        <div class="collaborator-card">
+          <div class="collaborator-photo" style="display:flex;align-items:center;justify-content:center;background:var(--color-bg-light);">
+            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width:36px;height:36px;color:var(--color-text-light);opacity:0.35;">
+              <circle cx="40" cy="30" r="14" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M14 72 C14 54 26 46 40 46 C54 46 66 54 66 72" stroke="currentColor" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+          <h3 class="collaborator-name">
+            {{ if .website }}<a href="{{ .website }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
+          </h3>
+          {{ with .affiliation }}<p class="collaborator-affiliation">{{ . }}</p>{{ end }}
+          {{ with .area }}<p class="collaborator-topic">{{ . }}</p>{{ end }}
+        </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

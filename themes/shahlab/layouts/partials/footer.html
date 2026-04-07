@@ -1,0 +1,40 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-affiliation">
+        <p class="footer-heading">O'Reilly-Shah Lab</p>
+        <p>Perioperative Data Science, Neuroscience, and Consciousness Research</p>
+        <p>
+          Department of Anesthesiology &amp; Pain Medicine<br>
+          University of Washington<br>
+          Seattle Children's Hospital
+        </p>
+      </div>
+
+      <div>
+        <p class="footer-heading">Quick Links</p>
+        <ul class="footer-links">
+          {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer-heading">Contact</p>
+        {{ with .Site.Params.email }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+        {{ with .Site.Params.address }}<p>{{ . | safeHTML }}</p>{{ end }}
+        <div style="display:flex;gap:0.75rem;margin-top:0.5rem;">
+          {{ with .Site.Params.github }}<a href="https://github.com/{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+          {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener">Twitter</a>{{ end }}
+          {{ with .Site.Params.scholar }}<a href="{{ . }}" target="_blank" rel="noopener">Scholar</a>{{ end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; {{ now.Year }} O'Reilly-Shah Lab, University of Washington. All rights reserved.</span>
+      <span>Built with <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+    </div>
+  </div>
+</footer>

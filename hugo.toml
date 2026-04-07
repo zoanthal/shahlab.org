@@ -1,0 +1,47 @@
+baseURL = "https://shahlab.org/"
+languageCode = "en-us"
+title = "O'Reilly-Shah Lab"
+theme = "shahlab"
+paginate = 20
+
+[params]
+  description = "Perioperative Data Science & Consciousness Science"
+  author = "Vikas N. O'Reilly-Shah, M.D., Ph.D."
+  tagline = "Perioperative Data Science · Neuroscience · Consciousness"
+  email = "vors@uw.edu"
+  github = "https://github.com/oreillyshah"
+  googleScholar = "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
+  [[menu.main]]
+    name = "Software"
+    url = "/software/"
+    weight = 4
+  [[menu.main]]
+    name = "Collaborators"
+    url = "/collaborators/"
+    weight = 5
+  [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 6
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML"]

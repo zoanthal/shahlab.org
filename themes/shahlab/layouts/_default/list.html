@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="hero hero-inner">
+  <div class="hero-content">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="tagline">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<div class="content">
+  {{ .Content }}
+
+  {{ if .Pages }}
+    {{ range .Pages }}
+      <div class="card" style="margin-bottom:1.25rem;">
+        <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        {{ with .Params.date }}<p class="card-meta">{{ .Format "January 2, 2006" }}</p>{{ end }}
+        {{ with .Summary }}<p class="card-text">{{ . }}</p>{{ end }}
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

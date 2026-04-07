@@ -1,0 +1,51 @@
+{{ define "main" }}
+<section class="hero hero-inner">
+  <div class="hero-content">
+    <h1>{{ .Title | default "Software & Tools" }}</h1>
+    {{ with .Description }}<p class="tagline">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ .Content }}
+
+    {{ if .Pages }}
+    <div class="software-grid">
+      {{ range .Pages.ByWeight }}
+        <div class="software-card">
+          <h3 class="card-title">
+            {{ with .Params.language }}<span class="badge badge-dark" style="font-size:0.7rem;">{{ . }}</span>{{ end }}
+            {{ .Title }}
+          </h3>
+          <p class="card-text">{{ with .Summary }}{{ . }}{{ end }}</p>
+          {{ .Content }}
+          <div class="software-badges">
+            {{ with .Params.github }}
+              <a href="https://github.com/{{ . }}" class="software-badge software-badge-github" target="_blank" rel="noopener">
+                GitHub
+              </a>
+            {{ end }}
+            {{ with .Params.docs }}
+              <a href="{{ . }}" class="software-badge software-badge-docs" target="_blank" rel="noopener">
+                Docs
+              </a>
+            {{ end }}
+            {{ with .Params.pypi }}
+              <a href="https://pypi.org/project/{{ . }}" class="software-badge software-badge-pypi" target="_blank" rel="noopener">
+                PyPI
+              </a>
+            {{ end }}
+            {{ with .Params.cran }}
+              <a href="https://cran.r-project.org/package={{ . }}" class="software-badge software-badge-cran" target="_blank" rel="noopener">
+                CRAN
+              </a>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

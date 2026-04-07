@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="hero hero-inner">
+  <div class="hero-content">
+    <h1>{{ .Title | default "Research" }}</h1>
+    {{ with .Description }}<p class="tagline">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ .Content }}
+
+    {{ if .Pages }}
+    <div class="research-grid">
+      {{ range .Pages.ByWeight }}
+        <a href="{{ .Permalink }}" class="research-card" style="text-decoration:none;color:inherit;">
+          {{ with .Params.icon }}<span class="card-icon">{{ . }}</span>{{ end }}
+          <h3 class="card-title">{{ .Title }}</h3>
+          <p class="card-text">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
+          {{ with .Params.tags }}
+            <div class="card-tags">
+              {{ range . }}<span class="badge badge-outline">{{ . }}</span>{{ end }}
+            </div>
+          {{ end }}
+          <span class="card-link">Learn more &rarr;</span>
+        </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

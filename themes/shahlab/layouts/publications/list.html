@@ -1,0 +1,77 @@
+{{ define "main" }}
+<section class="hero hero-inner">
+  <div class="hero-content">
+    <h1>{{ .Title | default "Publications" }}</h1>
+    {{ with .Description }}<p class="tagline">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="section" style="background-color: var(--color-bg-light);">
+  <div class="container">
+    {{ .Content }}
+
+    <div class="publications">
+    {{ with hugo.Data.publications }}
+      {{/* Build a sorted list of years */}}
+      {{ $years := slice }}
+      {{ range . }}
+        {{ $year := .year | default 0 }}
+        {{ if not (in $years $year) }}
+          {{ $years = $years | append $year }}
+        {{ end }}
+      {{ end }}
+      {{ $years = sort $years "value" "desc" }}
+
+      <div class="publication-filters" style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:2rem;">
+        <button class="filter-btn active" data-filter="all">All</button>
+        {{ range $years }}
+          <button class="filter-btn" data-filter="{{ . }}">{{ . }}</button>
+        {{ end }}
+      </div>
+
+      {{ range $year := $years }}
+        <div class="pub-year-group" data-year="{{ $year }}">
+          <h2 class="pub-year">{{ $year }}</h2>
+          {{ range where (hugo.Data.publications) "year" $year }}
+            <div class="pub-card">
+              <p class="pub-title">{{ .title }}</p>
+              <p class="pub-authors">{{ .authors }}</p>
+              <p class="pub-journal">
+                {{ .journal | default .venue | default .conference }}
+                {{ with .volume }}, {{ . }}{{ end }}
+                {{ with .pages }}:{{ . }}{{ end }}
+                ({{ .year }})
+              </p>
+              <div class="pub-links">
+                {{ with .doi }}<a href="https://doi.org/{{ . }}" class="pub-link pub-link-doi" target="_blank" rel="noopener">DOI</a>{{ end }}
+                {{ with .pmid }}<a href="https://pubmed.ncbi.nlm.nih.gov/{{ . }}" class="pub-link pub-link-pmid" target="_blank" rel="noopener">PubMed</a>{{ end }}
+                {{ with .pdf }}<a href="{{ . | relURL }}" class="pub-link pub-link-pdf">PDF</a>{{ end }}
+                {{ with .code }}<a href="{{ . }}" class="pub-link pub-link-code" target="_blank" rel="noopener">Code</a>{{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ else }}
+      {{/* Fallback: render publications from content pages */}}
+      {{ if .Pages }}
+        {{ $grouped := .Pages.GroupByDate "2006" }}
+        {{ range $grouped }}
+          <div class="pub-year-group">
+            <h2 class="pub-year">{{ .Key }}</h2>
+            {{ range .Pages }}
+              <div class="pub-card">
+                <p class="pub-title">{{ .Title }}</p>
+                {{ with .Params.authors }}<p class="pub-authors">{{ . }}</p>{{ end }}
+                {{ with .Params.journal }}<p class="pub-journal">{{ . }} ({{ $.Key }})</p>{{ end }}
+                {{ .Content }}
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

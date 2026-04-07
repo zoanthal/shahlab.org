@@ -1,0 +1,13 @@
+# Theme metadata
+name = "O'Reilly-Shah Lab"
+license = "MIT"
+licenselink = "https://github.com/shahlab/shahlab.org/blob/main/LICENSE"
+description = "Academic lab website theme for O'Reilly-Shah Lab at the University of Washington"
+homepage = "https://shahlab.org"
+min_version = "0.110.0"
+
+[author]
+  name = "Vikas N. O'Reilly-Shah"
+
+[params]
+  description = "O'Reilly-Shah Lab - Perioperative Data Science, Neuroscience, and Consciousness"

@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="hero hero-inner">
+  <div class="hero-content">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="tagline">{{ . }}</p>{{ end }}
+    {{ if .Params.date }}
+      <p style="color:rgba(255,255,255,0.6);font-size:0.9rem;margin-top:0.5rem;">{{ .Date.Format "January 2, 2006" }}</p>
+    {{ end }}
+    {{ with .Params.authors }}
+      <p style="color:rgba(255,255,255,0.65);font-size:0.95rem;">{{ delimit . ", " }}</p>
+    {{ end }}
+  </div>
+</section>
+
+<div class="content">
+  {{ with .Params.image }}
+    <figure>
+      <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="border-radius:var(--radius);">
+      {{ with $.Params.imageCaption }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
+  {{ end }}
+
+  {{ .Content }}
+
+  {{ with .Params.tags }}
+    <div class="card-tags" style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--color-border);">
+      {{ range . }}
+        <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="badge badge-outline">{{ . }}</a>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+{{ end }}
