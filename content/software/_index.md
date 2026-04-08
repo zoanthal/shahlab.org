@@ -14,12 +14,6 @@ Over 500,000 downloads on Android and iOS, used in nearly every country. Drug do
 
 ---
 
-### PHI Scrubber
-
-I built this because I needed it. Strips protected health information from the file formats you actually encounter in clinical research: EEG files (EDF, FIF, SET, BrainVision), NIfTI neuroimaging volumes, MATLAB files, images, and DOCX documents. No existing tool handled all of these.
-
----
-
 ### Survalytics
 
 Open-source experience sampling, survey, and analytics module for Android apps. Lets researchers embed validated survey instruments within mobile applications and collect longitudinal data. This is the engine behind the Anesthesiologist app's research capabilities. Published in *JMIR mHealth and uHealth* (2016).
@@ -31,12 +25,6 @@ Open-source experience sampling, survey, and analytics module for Android apps. 
 ### SUGARx
 
 Perioperative hyperglycemia management app. Implements institutional insulin protocols with real-time dosing guidance. Available on iOS and Android.
-
----
-
-### ANTICIPATE
-
-Pediatric syndromes reference for anesthesiologists. Syndrome-specific anesthetic considerations, airway guidance, and associated conditions for rare cases.
 
 ---
 

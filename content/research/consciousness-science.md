@@ -18,15 +18,15 @@ SST requires a metaphysics. Computational Dynamic Monism (CDM) provides it. CDM 
 
 ### Mathematical Foundations
 
-With Alessandro Selvitella at Purdue Fort Wayne, I work on the formal underpinnings of SST. The central question: under what conditions do smooth embeddings exist in contracting recurrent networks? This is not an abstract exercise. SST makes a specific claim about what kinds of dynamical systems can support consciousness, and the math has to back it up. We characterize the class of systems capable of delay coordinate reconstructions under biologically plausible constraints: contraction, plasticity, finite dimensionality. This paper has been submitted to *PLOS Computational Biology*.
+With Alessandro Selvitella at Purdue Fort Wayne, I work on the formal underpinnings of SST. The central question: under what conditions do smooth embeddings exist in contracting recurrent networks? This is not an abstract exercise. SST makes a specific claim about what kinds of dynamical systems can support consciousness, and the math has to back it up. We characterize the class of systems capable of delay coordinate reconstructions under biologically plausible constraints: contraction, plasticity, finite dimensionality. The preprint is on arXiv.
 
 ### The Unfolding Argument
 
-With Selvitella and Aaron Schurger (INSERM-CEA, Paris), I address the unfolding argument against computational theories of consciousness. Doerig et al. (2019) claimed that any feedforward network can replicate the input-output mapping of a recurrent network, and therefore computational structure cannot distinguish conscious from non-conscious systems. We show this argument fails when plasticity and temporal dynamics are taken into account. Recurrent networks with plasticity generate state space structures that feedforward unfoldings cannot reproduce. The unfolding argument assumes away exactly the features that matter.
+With Selvitella and Aaron Schurger (Chapman University; INSERM-CEA, Paris), I address the unfolding argument against computational theories of consciousness. Doerig et al. (2019) claimed that any feedforward network can replicate the input-output mapping of a recurrent network, and therefore computational structure cannot distinguish conscious from non-conscious systems. We show this argument fails when plasticity and temporal dynamics are taken into account. Recurrent networks with plasticity generate state space structures that feedforward unfoldings cannot reproduce. The unfolding argument assumes away exactly the features that matter.
 
 ### Chinese Rooms
 
-With Selvitella, I analyze Searle's Chinese Room argument through the lens of SST and dynamical systems theory. Searle's thought experiment conflates static symbol manipulation with the temporally extended, geometrically structured computation that SST identifies as constitutive of understanding. The Chinese Room, as described, lacks the recurrent dynamics and plasticity required to generate the relevant state space embeddings. It is not a counterexample to computational theories of mind; it is a counterexample to a theory nobody holds.
+I analyze Searle's Chinese Room argument through the lens of SST and dynamical systems theory. Searle's thought experiment conflates static symbol manipulation with the temporally extended, geometrically structured computation that SST identifies as constitutive of understanding. The Chinese Room, as described, lacks the recurrent dynamics and plasticity required to generate the relevant state space embeddings. It is not a counterexample to computational theories of mind; it is a counterexample to a theory nobody holds.
 
 ### Publications and Preprints
 

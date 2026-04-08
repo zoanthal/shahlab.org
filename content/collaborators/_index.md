@@ -12,7 +12,7 @@ Department of Mathematical Sciences, Purdue University Fort Wayne. Alessandro is
 
 ### Aaron Schurger, Ph.D.
 
-Cognitive Neuroimaging Unit, INSERM-CEA, Paris. Aaron and I co-authored the caveats paper on the unfolding argument, showing that it fails when plasticity and temporal dynamics are taken into account. He brings deep expertise in the neuroscience of volition and consciousness.
+Chapman University; Cognitive Neuroimaging Unit, INSERM-CEA, Paris. Aaron and I co-authored the caveats paper on the unfolding argument, showing that it fails when plasticity and temporal dynamics are taken into account. He brings deep expertise in the neuroscience of volition and consciousness.
 
 ### Stanley Krippner, Ph.D.
 
