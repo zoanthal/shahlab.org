@@ -5,10 +5,11 @@
 
 # ---------- 2026 ----------
 
-- title: "Association of Liver Fibrosis FIB-4 Score with Perioperative Complications"
+- title: "Association of Liver Fibrosis Fibrosis-4 Score with Perioperative Complications and Mortality: A Retrospective Multicenter Analysis"
   authors: "Zelber-Sagi S, O'Reilly-Shah VN, Khanna AK, Rock P, Bentov I, MPOG PCRC Collaborative Authors"
   journal: "Anesthesiology"
   year: 2026
+  pmid: "41191454"
 
 - title: "Incidence of phosphate abnormalities after cardiac surgery and lactic acidosis"
   authors: "Steck DT, Mostofi N, Togashi K, Li R, Wu D, Wells L, Fong CT, Tillinghast K, O'Reilly-Shah VN, Jelacic S"
@@ -21,6 +22,7 @@
   journal: "Nonlinear Dynamics, Psychology, and Life Sciences"
   year: 2026
   pmid: "41913525"
+  philpapers: "https://philarchive.org/rec/ORESST-2"
 
 - title: "Smooth embeddings in contracting recurrent networks driven by regular dynamics: A synthesis for neural representation"
   authors: "O'Reilly-Shah VN, Selvitella AM"
@@ -28,12 +30,14 @@
   year: 2026
   doi: "10.48550/arXiv.2601.19019"
   type: preprint
+  philpapers: "https://philarchive.org/rec/ORESEC"
 
 - title: "From Chinese Rooms to Language Models: Plasticity, Process, and the Limits of Internalization"
   authors: "O'Reilly-Shah VN"
   journal: "SSRN"
   year: 2026
   type: preprint
+  philpapers: "https://philarchive.org/rec/ORECDM"
 
 # ---------- 2025 ----------
 
@@ -43,10 +47,11 @@
   year: 2025
   pmid: "40314957"
 
-- title: "Multicenter validation of machine learning model for surgical transfusion risk"
-  authors: "Lou SS, et al., O'Reilly-Shah VN, MPOG Collaborative"
+- title: "Multicenter Validation of a Machine Learning Model for Surgical Transfusion Risk at 45 US Hospitals"
+  authors: "Lou SS, Kumar S, Goss CW, Avidan MS, Kheterpal S, Kannampallil T, Multicenter Perioperative Outcomes Group"
   journal: "JAMA Network Open"
   year: 2025
+  pmid: "40577014"
 
 - title: "Identifying variation in intraoperative management of brain-dead organ donors"
   authors: "Lele AV, Vail EA, O'Reilly-Shah VN, DeGraw X, Domino KB, Walters AM, et al."
@@ -60,6 +65,8 @@
   year: 2025
   volume: "32(1-2)"
   pages: "127-159"
+  doi: "10.53765/20512201.32.1.132"
+  philpapers: "https://philarchive.org/rec/OREDCE-2"
 
 - title: "Clinical outcomes in patients with phosphate abnormalities after cardiac surgery"
   authors: "Steck DT, Mostofi N, Togashi K, Li R, Wu D, Wells L, Fong CT, Tillinghast K, O'Reilly-Shah VN, Jelacic S"
@@ -114,6 +121,7 @@
   journal: "bioRxiv"
   year: 2025
   doi: "10.1101/2025.11.04.686457"
+  philpapers: "https://philarchive.org/rec/OREACR"
   type: preprint
 
 - title: "Computational dynamic monism: Process metaphysics for the state space theory of consciousness"
@@ -121,6 +129,7 @@
   journal: "SSRN Electronic Journal"
   year: 2025
   doi: "10.2139/ssrn.6042716"
+  philpapers: "https://philarchive.org/rec/ORECDM"
   type: preprint
 
 # ---------- 2024 ----------

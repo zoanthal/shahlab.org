@@ -611,6 +611,8 @@ ul, ol { padding-left: 1.5em; margin-bottom: 1em; }
 .pub-link-pdf:hover  { background: #c0392b; color: white; }
 .pub-link-code { background: rgba(142,68,173,0.08); color: #8e44ad; }
 .pub-link-code:hover { background: #8e44ad; color: white; }
+.pub-link-oa { background: rgba(243,156,18,0.1); color: #e67e22; }
+.pub-link-oa:hover { background: #e67e22; color: white; }
 
 /* --------------------------------------------------------------------------
    Software
