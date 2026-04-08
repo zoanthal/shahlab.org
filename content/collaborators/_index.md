@@ -18,6 +18,10 @@ Cognitive Neuroimaging Unit, INSERM-CEA, Paris. Aaron and I co-authored the cave
 
 Saybrook University. Stanley Krippner has decades of foundational work in dream research and altered states of consciousness. We collaborate on the Chaos-State Space Dream Model, which connects SST's state space framework to the phenomenology of dreaming, lucid dreaming, and sleep-state transitions. His phenomenological expertise provides an essential empirical check on the theoretical framework.
 
+### Adam Kiefer, Ph.D.
+
+Department of Exercise and Sport Science, University of North Carolina at Chapel Hill. Collaboration on dynamical systems approaches to motor coordination and consciousness.
+
 ### Dustin Long, M.D.
 
 Department of Anesthesiology and Pain Medicine, University of Washington. Collaboration on COVID-19 perioperative research and NLP-based surgical site infection detection from clinical notes.
