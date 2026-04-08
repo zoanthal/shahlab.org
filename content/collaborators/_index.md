@@ -20,7 +20,7 @@ Saybrook University. Stanley Krippner has decades of foundational work in dream 
 
 ### Adam Kiefer, Ph.D.
 
-Department of Exercise and Sport Science, University of North Carolina at Chapel Hill. Collaboration on analysis of healthcare data using nonlinear dynamical systems methods.
+Department of Exercise and Sport Science, University of North Carolina at Chapel Hill. Co-director of the STAR Heel Performance Laboratory. Adam's background is in complex systems and ecological psychology. We collaborate on analysis of healthcare data using nonlinear dynamical systems methods.
 
 ### Dustin Long, M.D.
 
