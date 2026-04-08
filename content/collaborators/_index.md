@@ -20,7 +20,7 @@ Saybrook University. Stanley Krippner has decades of foundational work in dream 
 
 ### Adam Kiefer, Ph.D.
 
-Department of Exercise and Sport Science, University of North Carolina at Chapel Hill. Collaboration on dynamical systems approaches to motor coordination and consciousness.
+Department of Exercise and Sport Science, University of North Carolina at Chapel Hill. Collaboration on analysis of healthcare data using nonlinear dynamical systems methods.
 
 ### Dustin Long, M.D.
 
