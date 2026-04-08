@@ -14,7 +14,7 @@ Philip Chung and I published work in *JAMA Surgery* evaluating large language mo
 
 ### Cardiac Arrest Prediction
 
-We built machine learning models for intraoperative cardiac arrest prediction using EHR data, published in *Circulation*. The models identify temporal risk patterns and high-risk phenotypes that precede arrest events. Cardiac arrest in the OR is rare but devastating. Early warning matters.
+Collaborative work published in *Circulation* (Perry et al., 2024) developed machine learning models for predicting out-of-hospital cardiac arrest from electronic health record data. The models identify temporal risk patterns and high-risk phenotypes that precede arrest events.
 
 ### ASA Physical Status and NLP
 
@@ -35,9 +35,11 @@ Automated risk scores encode and amplify biases in training data. I study how ra
 - National pediatric quality metric development through MPOG ASPIRE
 - Disparities analysis in perioperative outcomes
 
-### Key Publications
+### Selected Publications
 
-- Chung P, ..., O'Reilly-Shah VN. LLM performance on perioperative risk prediction tasks. *JAMA Surgery*, 2024.
-- O'Reilly-Shah VN, et al. Cardiac arrest prediction from EHR data. *Circulation*.
-- O'Reilly-Shah VN, et al. ASA Physical Status prediction using NLP. 2020.
-- O'Reilly-Shah VN, et al. Bias in perioperative risk assessment.
+- Chung P, Fong CT, Walters AM, Aghaeepour N, Yetisgen M, O'Reilly-Shah VN. Large language model capabilities in perioperative risk prediction and prognostication. *JAMA Surgery*, 2024. PMID: 38837145
+- Perry J, Brody JA, Fong C, Sunshine JE, O'Reilly-Shah VN, et al. Predicting out-of-hospital cardiac arrest in the general population using electronic health records. *Circulation*, 2024. PMID: 38860364
+- Chung P, Fong CT, Walters AM, Yetisgen M, O'Reilly-Shah VN. Prediction of ASA Physical Status Classification from preoperative clinical text narratives using NLP. *BMC Anesthesiology*, 2023. PMID: 37667258
+- O'Reilly-Shah VN, Gentry KR, Walters AM, Zivot J, Anderson CT, Tighe PJ. Bias and ethical considerations in machine learning and the automation of perioperative risk assessment. *British Journal of Anaesthesia*, 2020. PMID: 32838979
+
+[Full publication list](/publications/)

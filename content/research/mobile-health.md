@@ -18,8 +18,12 @@ The app also serves as a research platform. I embedded survey instruments inside
 
 **PHI Scrubber.** A tool for removing protected health information from research datasets. It handles the file formats you actually encounter in clinical research: EEG files (EDF, FIF, SET, BrainVision), NIfTI neuroimaging volumes, MATLAB files, images, and DOCX documents. I built it because I needed it.
 
-### Key Publications
+### Selected Publications
 
-- O'Reilly-Shah VN, Hearst MO. Survalytics: an open-source cloud-integrated experience sampling, survey, and analytics module for Android. *JMIR mHealth and uHealth*, 2016.
-- O'Reilly-Shah VN, et al. The Anesthesiologist app: global anesthesia practice patterns via mobile survey.
-- O'Reilly-Shah VN, et al. Mobile technology adoption among anesthesia providers.
+- O'Reilly-Shah VN, Mackey S. Survalytics: An open-source cloud-integrated experience sampling, survey, and analytics and metadata collection module for Android operating system apps. *JMIR mHealth and uHealth*, 2016. PMID: 27261155
+- O'Reilly-Shah V, Easton G, Gillespie S. Assessing the global reach and value of a provider-facing healthcare app using large-scale analytics. *BMJ Global Health*, 2017. PMID: 29082007
+- O'Reilly-Shah VN. Factors influencing healthcare provider respondent fatigue answering a globally administered in-app survey. *PeerJ*, 2017. PMID: 28924502
+- O'Reilly-Shah VN, Wolf FA, Jabaley CS, Lynde GC. Using a worldwide in-app survey to explore sugammadex usage patterns. *British Journal of Anaesthesia*, 2017. PMID: 28854547
+- O'Reilly-Shah VN, Kitzman J, Jabaley CS, Lynde GC. Evidence for increased use of the SPA Critical Events Checklist in resource-limited environments. *Paediatric Anaesthesia*, 2018. PMID: 29285834
+
+[Full publication list](/publications/)
