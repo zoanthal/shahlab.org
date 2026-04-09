@@ -8,12 +8,12 @@
 - title: "Association of Liver Fibrosis Fibrosis-4 Score with Perioperative Complications and Mortality: A Retrospective Multicenter Analysis"
   authors: "Zelber-Sagi S, O'Reilly-Shah VN, Khanna AK, Rock P, Bentov I, MPOG PCRC Collaborative Authors"
   journal: "Anesthesiology"
-  year: 2026
+  year: 2025
   pmid: "41191454"
 
 - title: "Incidence of phosphate abnormalities after cardiac surgery and lactic acidosis"
   authors: "Steck DT, Mostofi N, Togashi K, Li R, Wu D, Wells L, Fong CT, Tillinghast K, O'Reilly-Shah VN, Jelacic S"
-  journal: "MPOG Perioperative Clinical Research Collaborative"
+  journal: "Accepted"
   year: 2026
   note: "Accepted"
 
@@ -42,7 +42,7 @@
 # ---------- 2025 ----------
 
 - title: "Hospital and clinician practice variation in cardiac surgery and postoperative acute kidney injury"
-  authors: "Mathis MR, Kheterpal S, et al., O'Reilly-Shah VN, MPOG Collaborative"
+  authors: "Mathis MR, Mentz GB, Cao J, et al., Kheterpal S, MPOG Collaborators"
   journal: "JAMA Network Open"
   year: 2025
   pmid: "40314957"
@@ -56,7 +56,7 @@
 - title: "Identifying variation in intraoperative management of brain-dead organ donors"
   authors: "Lele AV, Vail EA, O'Reilly-Shah VN, DeGraw X, Domino KB, Walters AM, et al."
   journal: "Anesthesia & Analgesia"
-  year: 2025
+  year: 2024
   pmid: "39167559"
 
 - title: "Delay coordinate embedding as neuronally implemented information processing: The state space theory of consciousness"
@@ -71,11 +71,11 @@
 - title: "Clinical outcomes in patients with phosphate abnormalities after cardiac surgery"
   authors: "Steck DT, Mostofi N, Togashi K, Li R, Wu D, Wells L, Fong CT, Tillinghast K, O'Reilly-Shah VN, Jelacic S"
   journal: "Anesthesia & Analgesia"
-  year: 2025
+  year: 2024
   pmid: "39466661"
 
 - title: "Practice Pattern Variability in Use of Pulmonary Artery Catheters in Cardiac Surgery"
-  authors: "MacKay EJ, et al., O'Reilly-Shah VN, MPOG Collaborative"
+  authors: "MacKay EJ, Zhang B, Beaty JM, Devine KA, O'Reilly-Shah V, Mathis MR, et al."
   journal: "Journal of Cardiothoracic and Vascular Anesthesia"
   year: 2025
   pmid: "40915872"
@@ -87,7 +87,7 @@
   pmid: "41031649"
 
 - title: "Single-Center Descriptive Analysis of Interventions for Hypotension in Children"
-  authors: "McLaughlin L, et al., O'Reilly-Shah VN"
+  authors: "McLaughlin CS, O'Reilly-Shah VN, et al."
   journal: "Paediatric Anaesthesia"
   year: 2025
   pmid: "40787969"
@@ -183,7 +183,7 @@
   pmid: "38215706"
 
 - title: "Intraoperative prophylaxis with Palonosetron for postoperative nausea and vomiting in cardiac surgery"
-  authors: "Estrada Alamo MK, et al., O'Reilly-Shah VN"
+  authors: "Estrada Alamo CE, et al., O'Reilly-Shah VN"
   journal: "Journal of Cardiothoracic and Vascular Anesthesia"
   year: 2024
   pmid: "38472029"
@@ -209,7 +209,7 @@
   pmid: "37188560"
 
 - title: "Evaluating regional analgesia in children with spina bifida undergoing surgery"
-  authors: "Moore EE, et al., O'Reilly-Shah VN"
+  authors: "Moore RP, Burjek NE, Brockel MA, et al., O'Reilly-Shah VN"
   journal: "Regional Anesthesia and Pain Medicine"
   year: 2023
   pmid: "36167478"
@@ -243,13 +243,13 @@
   pmid: "32506118"
 
 - title: "A continuously benchmarked and crowdsourced challenge for rapid development and evaluation of models to predict COVID-19 diagnosis and hospitalization"
-  authors: "Yan J, et al., O'Reilly-Shah VN, et al., DREAM Consortium"
+  authors: "Yan Y, Schaffter T, Bergquist T, et al., DREAM Challenge Consortium"
   journal: "JAMA Network Open"
   year: 2021
   pmid: "34633425"
 
-- title: "Transgender patient care survey among anesthesiologists"
-  authors: "Roque D, et al., O'Reilly-Shah VN"
+- title: "Transgender patient care: a prospective survey of pediatric anesthesiologist attitudes and knowledge"
+  authors: "Roque RA, O'Reilly-Shah V, Lorello GR, Adams T, Cladis F"
   journal: "Canadian Journal of Anaesthesia"
   year: 2021
   pmid: "34405355"
@@ -310,7 +310,7 @@
   year: 2020
   pmid: "32423445"
 
-- title: "Perioperative management of the child with type 1 diabetes mellitus: A survey of Society for Pediatric Anesthesia members"
+- title: "Perioperative Management of Pediatric Patients With Type 1 Diabetes Mellitus, Updated Recommendations for Anesthesiologists"
   authors: "Martin LD, et al., O'Reilly-Shah VN, SPA Collaborative"
   journal: "Anesthesia & Analgesia"
   year: 2020
@@ -333,7 +333,7 @@
 - title: "Trends in the utilization of extracorporeal membrane oxygenation"
   authors: "Stentz MJ, et al., O'Reilly-Shah VN"
   journal: "ASAIO Journal"
-  year: 2019
+  year: 2018
   pmid: "30247176"
 
 - title: "Lack of association between handoff of anesthesia care and adverse postoperative outcomes"
@@ -343,7 +343,7 @@
   pmid: "31615410"
 
 - title: "A Preoperative Cognitive Screening Test Predicts Increased Length of Stay in a Frail Population"
-  authors: "O'Reilly-Shah VN, Hemani S, Engoren M, et al."
+  authors: "O'Reilly-Shah VN, Hemani S, Davari P, et al."
   journal: "Anesthesia & Analgesia"
   year: 2019
   pmid: "30882522"
@@ -357,7 +357,7 @@
 # ---------- 2018 ----------
 
 - title: "Global trends in the awareness of sepsis: Insights from Google search data"
-  authors: "Jabaley CS, Greer SE, Eberle-Goss MT, O'Reilly-Shah VN"
+  authors: "Jabaley CS, Blum JM, Groff RF, O'Reilly-Shah VN"
   journal: "Critical Care"
   year: 2018
   pmid: "29343292"
@@ -381,7 +381,7 @@
   pmid: "30296750"
 
 - title: "Is it time to start using the emoji in biomedical literature?"
-  authors: "O'Reilly-Shah VN, Lynde GC, Gentry KR"
+  authors: "O'Reilly-Shah VN, Lynde GC, Jabaley CS"
   journal: "BMJ"
   year: 2018
   pmid: "30541905"
@@ -398,7 +398,7 @@
   year: 2018
   pmid: "29285834"
 
-- title: "ED50 of intrathecal hydromorphone for postcesarean analgesia"
+- title: "Determination of ED50 and time to effectiveness for intrathecal hydromorphone in laboring patients using Dixon's up-and-down sequential allocation method"
   authors: "O'Reilly-Shah VN, Lynde GC"
   journal: "BMC Anesthesiology"
   year: 2018
@@ -453,7 +453,7 @@
 # ---------- 2012 ----------
 
 - title: "Pseudohyperkalemia in chronic lymphocytic leukemia"
-  authors: "Shah VN, Lee MW"
+  authors: "Shah VN, Lee JL"
   journal: "Journal of Clinical Anesthesia"
   year: 2012
   pmid: "22608593"
@@ -475,7 +475,7 @@
   pmid: "16505387"
 
 - title: "Calcium-dependent regulation of ion channels"
-  authors: "Shah VN, Bhatt DK, Bhatt JC"
+  authors: "Shah VN, Chagot B, Chazin WJ"
   journal: "Calcium Binding Proteins"
   year: 2006
   pmid: "28757812"
@@ -489,7 +489,7 @@
   pmid: "14981509"
 
 - title: "Calmodulin interacts with the V2 vasopressin receptor"
-  authors: "Nickols HH, Shah VN, Bhatt DK, Bhatt JC"
+  authors: "Nickols HH, Shah VN, Chazin WJ, Limbird LE"
   journal: "Journal of Biological Chemistry"
   year: 2004
   pmid: "15319442"
