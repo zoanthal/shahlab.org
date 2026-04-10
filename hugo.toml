@@ -35,9 +35,13 @@ paginate = 20
     url = "/collaborators/"
     weight = 5
   [[menu.main]]
+    name = "Writing"
+    url = "/writing/"
+    weight = 6
+  [[menu.main]]
     name = "News"
     url = "/news/"
-    weight = 6
+    weight = 7
 
 [markup]
   [markup.goldmark]
