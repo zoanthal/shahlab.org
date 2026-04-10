@@ -8,7 +8,7 @@ weight: 5
 
 ### Alessandro Selvitella, Ph.D.
 
-Department of Mathematical Sciences, Purdue University Fort Wayne. Alessandro is my primary collaborator on the mathematical and philosophical work. So far we have published the smooth embeddings paper (contracting recurrent networks driven by regular dynamics) and the caveats paper on the unfolding argument. More to come. He brings the analysis and PDEs; I bring the dynamical systems intuition and the neuroscience. It works.
+Department of Mathematical Sciences, Purdue University Fort Wayne. Alessandro is my primary collaborator on the mathematical and philosophical work. So far we have published the embedding paper (low-dimensional sensory dynamics in recurrent networks) and the caveats paper on the unfolding argument. More to come. He brings the analysis and PDEs; I bring the dynamical systems intuition and the neuroscience. It works.
 
 ### Aaron Schurger, Ph.D.
 

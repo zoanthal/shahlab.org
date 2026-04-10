@@ -10,7 +10,7 @@ weight: 6
 
 **SST unification paper published.** The paper extending the State Space Theory of consciousness and connecting it to IIT, Global Workspace Theory, and Higher-Order Theories is published in *Nonlinear Dynamics, Psychology, and Life Sciences*. [PubMed](https://pubmed.ncbi.nlm.nih.gov/41913525/) | [Open Access](https://www.societyforchaostheory.org/ndpls/askFILE/?docObjId=300202ARTICLE)
 
-**Smooth embeddings paper.** Joint work with Alessandro Selvitella on the mathematical foundations of SST: smooth embeddings in contracting recurrent networks driven by regular dynamics.
+**Embedding paper.** Joint work with Alessandro Selvitella on the mathematical foundations of SST: embedding of low-dimensional sensory dynamics in recurrent networks.
 
 ### 2025
 
