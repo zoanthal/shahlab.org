@@ -31,7 +31,7 @@ I analyze Searle's Chinese Room argument through the lens of SST and dynamical s
 ### Publications and Preprints
 
 - O'Reilly-Shah VN. Delay coordinate embedding as neuronally implemented information processing: The state space theory of consciousness. *Journal of Consciousness Studies*, 32(1-2):127-159, 2025.
-- O'Reilly-Shah VN. State space theory as a unifying framework for consciousness. *Nonlinear Dynamics, Psychology, and Life Sciences*, 2026. PMID: 41913525
+- O'Reilly-Shah VN. State space theory as a unifying framework for consciousness. *Nonlinear Dynamics, Psychology, and Life Sciences*, 2026. [PubMed](https://pubmed.ncbi.nlm.nih.gov/41913525/) | [Open Access](https://www.societyforchaostheory.org/ndpls/askFILE/?docObjId=300202ARTICLE)
 - O'Reilly-Shah VN. Computational dynamic monism: Process metaphysics for the state space theory of consciousness. *SSRN*, 2025. doi:10.2139/ssrn.6042716
 - O'Reilly-Shah VN, Selvitella AM. Smooth embeddings in contracting recurrent networks driven by regular dynamics: A synthesis for neural representation. *arXiv* [q-Bio.NC], 2026. doi:10.48550/arXiv.2601.19019
 - O'Reilly-Shah VN, Selvitella A, Schurger A. A caveat regarding the unfolding argument: Implications of plasticity for computational theories of consciousness. *bioRxiv*, 2025. doi:10.1101/2025.11.04.686457

@@ -13,7 +13,7 @@ These programs are connected. Computational neuroscience and LLM interpretabilit
 ### Main Programs
 
 **[Consciousness Science (State Space Theory)](/research/consciousness-science/)**
-The State Space Theory of consciousness, its metaphysical framework (Computational Dynamic Monism), and the mathematical foundations that make it precise. This is my primary theoretical research program. Published in *Journal of Consciousness Studies* (2025), with the unification paper in *Nonlinear Dynamics, Psychology, and Life Sciences* (2026).
+The State Space Theory of consciousness, its metaphysical framework (Computational Dynamic Monism), and the mathematical foundations that make it precise. This is my primary theoretical research program. Published in *Journal of Consciousness Studies* (2025), with the unification paper in *Nonlinear Dynamics, Psychology, and Life Sciences* ([2026](https://www.societyforchaostheory.org/ndpls/askFILE/?docObjId=300202ARTICLE)).
 
 **[Perioperative Data Science](/research/perioperative-data-science/)**
 Machine learning, NLP, and multicenter analytics for surgical and anesthetic outcomes. LLM evaluation for clinical risk prediction. Cardiac arrest prediction. National quality benchmarking through MPOG. Published in *JAMA Surgery*, *Circulation*, and others.
