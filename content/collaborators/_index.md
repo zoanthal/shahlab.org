@@ -38,7 +38,7 @@ Associate Professor, Division of Pediatric Anesthesiology, [Vanderbilt Universit
 
 ### Theodora Wingert, M.D.
 
-Associate Professor of Clinical Anesthesiology, [UCLA](https://www.uclahealth.org/providers/theodora-wingert). Board certified in Anesthesiology, Pediatric Anesthesiology, and Clinical Informatics. Collaboration on machine learning and AI applications in anesthesiology.
+Associate Professor of Clinical Anesthesiology, [UCLA](https://www.uclahealth.org/providers/theodora-wingert). Board certified in Anesthesiology, Pediatric Anesthesiology, and Clinical Informatics. New collaborator on MPOG and perioperative data science projects.
 
 ### Dustin Long, M.D.
 
