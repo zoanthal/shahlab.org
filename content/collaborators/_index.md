@@ -8,19 +8,19 @@ weight: 5
 
 ### Alessandro Selvitella, Ph.D.
 
-Department of Mathematical Sciences, Purdue University Fort Wayne. Alessandro is my primary collaborator on the mathematical and philosophical work. So far we have published the embedding paper (low-dimensional sensory dynamics in recurrent networks) and the caveats paper on the unfolding argument. More to come. He brings the analysis and PDEs; I bring the dynamical systems intuition and the neuroscience. It works.
+Department of Mathematical Sciences, [Purdue University Fort Wayne](https://www.pfw.edu/about-pfw/who-we-are/directories/alessandro-selvitella). Alessandro is my primary collaborator on the mathematical and philosophical work. So far we have published the embedding paper (low-dimensional sensory dynamics in recurrent networks) and the caveats paper on the unfolding argument. More to come. He brings the analysis and PDEs; I bring the dynamical systems intuition and the neuroscience. It works.
 
 ### Aaron Schurger, Ph.D.
 
-Chapman University; Cognitive Neuroimaging Unit, INSERM-CEA, Paris. Aaron and I co-authored the caveats paper on the unfolding argument, showing that it fails when plasticity and temporal dynamics are taken into account. He brings deep expertise in the neuroscience of volition and consciousness.
+[Chapman University](https://www.chapman.edu/our-faculty/aaron-schurger); Cognitive Neuroimaging Unit, INSERM-CEA, Paris. Aaron and I co-authored the caveats paper on the unfolding argument, showing that it fails when plasticity and temporal dynamics are taken into account. He brings deep expertise in the neuroscience of volition and consciousness.
 
 ### Stanley Krippner, Ph.D.
 
-Saybrook University. Stanley Krippner has decades of foundational work in dream research and altered states of consciousness. We collaborate on the Chaos-State Space Dream Model, which connects SST's state space framework to the phenomenology of dreaming, lucid dreaming, and sleep-state transitions. His phenomenological expertise provides an essential empirical check on the theoretical framework.
+[stanleykrippner.weebly.com](https://stanleykrippner.weebly.com/). Stanley Krippner has decades of foundational work in dream research and altered states of consciousness. We collaborate on the Chaos-State Space Dream Model, which connects SST's state space framework to the phenomenology of dreaming, lucid dreaming, and sleep-state transitions. His phenomenological expertise provides an essential empirical check on the theoretical framework.
 
 ### Adam Kiefer, Ph.D.
 
-Department of Exercise and Sport Science, University of North Carolina at Chapel Hill. Co-director of the STAR Heel Performance Laboratory. Adam's background is in complex systems and ecological psychology. We collaborate on analysis of healthcare data using nonlinear dynamical systems methods.
+Department of Exercise and Sport Science, [University of North Carolina at Chapel Hill](https://exss.unc.edu/faculty-staff/adam-c-kiefer/). Co-director of the STAR Heel Performance Laboratory. Adam's background is in complex systems and ecological psychology. We collaborate on analysis of healthcare data using nonlinear dynamical systems methods.
 
 ## Perioperative Data Science & Clinical Informatics
 
