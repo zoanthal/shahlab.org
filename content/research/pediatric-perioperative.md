@@ -3,7 +3,6 @@ title: "Pediatric Anesthesiology & Perioperative Quality"
 date: 2024-01-01
 weight: 4
 summary: "Quality improvement and outcomes research for children undergoing surgery."
-icon: "👶"
 ---
 
 I am a practicing pediatric anesthesiologist. I take care of kids every week. This research program comes directly from that clinical work.

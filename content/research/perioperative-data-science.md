@@ -3,7 +3,6 @@ title: "Perioperative Data Science & Clinical Informatics"
 date: 2024-01-01
 weight: 1
 summary: "Machine learning, NLP, and multicenter analytics for surgical and anesthetic outcomes."
-icon: "📊"
 ---
 
 I build and evaluate machine learning, NLP, and large-scale analytic methods to make perioperative care better. This work draws on electronic health record data ranging from single-center studies to national multicenter registries.

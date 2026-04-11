@@ -3,7 +3,6 @@ title: "Consciousness Science (State Space Theory)"
 date: 2024-01-01
 weight: 2
 summary: "A theory of consciousness grounded in delay coordinate embedding, recurrent dynamics, and process metaphysics."
-icon: "🧠"
 ---
 
 This is my primary theoretical research program.

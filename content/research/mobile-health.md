@@ -3,7 +3,6 @@ title: "Mobile Health & Clinical Decision Support"
 date: 2024-01-01
 weight: 5
 summary: "Clinical apps used by hundreds of thousands of providers worldwide."
-icon: "📱"
 ---
 
 The Anesthesiologist app has been downloaded over 500,000 times on Android and iOS. It is used in nearly every country. I built it as a quick reference and calculator for anesthesia providers: drug dosing, pediatric emergency references, fasting guidelines, airway algorithms. I developed it during residency and it grew into a global clinical tool.

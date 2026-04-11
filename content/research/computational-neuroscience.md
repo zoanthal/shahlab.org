@@ -3,7 +3,6 @@ title: "Computational Neuroscience & LLM Interpretability"
 date: 2024-01-01
 weight: 3
 summary: "Using LLMs as testbeds for neural state space predictions."
-icon: "🔬"
 ---
 
 This program connects the consciousness theory to the data science.
