@@ -8,6 +8,8 @@ weight: 6
 
 ### 2026
 
+**SST/CDM on the Landscape of Consciousness.** State Space Theory and Computational Dynamic Monism are now listed on Robert Lawrence Kuhn's [Landscape of Consciousness](https://loc.closertotruth.com/theory/oreilly-shahs-state-space-theory-and-computational-dynamic-monism) at Closer to Truth, a catalogue of over 400 theories of consciousness.
+
 **SST unification paper published.** The paper extending the State Space Theory of consciousness and connecting it to IIT, Global Workspace Theory, and Higher-Order Theories is published in *Nonlinear Dynamics, Psychology, and Life Sciences*. [PubMed](https://pubmed.ncbi.nlm.nih.gov/41913525/) | [Open Access](https://www.societyforchaostheory.org/ndpls/askFILE/?docObjId=300202ARTICLE)
 
 **Embedding paper.** Joint work with Alessandro Selvitella on the mathematical foundations of SST: embedding of low-dimensional sensory dynamics in recurrent networks.

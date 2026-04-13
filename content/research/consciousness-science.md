@@ -9,7 +9,7 @@ This is my primary theoretical research program.
 
 The State Space Theory (SST) of consciousness proposes that consciousness is constituted by hierarchical delay coordinate embedding in plastic recurrent neural networks. The core ideas require explanation. Delay coordinate embedding is a technique from dynamical systems theory: you take a time series and arrange time-delayed copies of the signal into a higher-dimensional space, reconstructing the geometry of the underlying attractor. Takens' theorem guarantees that this reconstruction preserves the topology of the original system. SST holds that biological neural networks perform this operation on their own activity, and that the resulting reconstructed state space is the physical substrate of conscious experience.
 
-I published the core theory in the *Journal of Consciousness Studies* in 2025. A unification paper extending SST and connecting it to existing frameworks (IIT, Global Workspace Theory, Higher-Order Theories) is published in *Nonlinear Dynamics, Psychology, and Life Sciences* (2026).
+I published the core theory in the *Journal of Consciousness Studies* in 2025. A unification paper extending SST and connecting it to existing frameworks (IIT, Global Workspace Theory, Higher-Order Theories) is published in *Nonlinear Dynamics, Psychology, and Life Sciences* (2026). SST and CDM are listed on Robert Lawrence Kuhn's [Landscape of Consciousness](https://loc.closertotruth.com/theory/oreilly-shahs-state-space-theory-and-computational-dynamic-monism) at Closer to Truth.
 
 ### Computational Dynamic Monism
 
