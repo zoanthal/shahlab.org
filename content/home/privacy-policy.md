@@ -1,11 +1,9 @@
 ---
-title: "Privacy Policy"
+title: "Privacy Policy — Anesthesiologists"
 date: 2026-04-29
 url: "/home/privacy-policy/"
 summary: "Privacy policy for the Anesthesiologists and Opioid Converter mobile applications."
 ---
-
-# Privacy Policy — Anesthesiologists
 
 **Effective date:** April 29, 2026
 **Last updated:** April 29, 2026
