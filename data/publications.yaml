@@ -5,6 +5,20 @@
 
 # ---------- 2026 ----------
 
+- title: "Intraoperative mechanical power and postoperative pulmonary complications: association and threshold analysis in adult intra-abdominal surgery"
+  authors: "El-Khatib M, HajAli T, Zeeni C, Khalili A, Shreim R, Mathis MR, Abou Nafeh N, Aouad M, et al., O'Reilly-Shah VN, MPOG PCRC"
+  journal: "Journal of Anesthesia, Analgesia and Critical Care"
+  year: 2026
+  doi: "10.1186/s44158-026-00423-6"
+
+- title: "Large Language Models for Semantic Interoperability in Value-Based Perioperative Care"
+  authors: "Mudumbai SC, O'Reilly-Shah VN, Han L, Rothman BS"
+  journal: "Journal of Medical Systems"
+  year: 2026
+  volume: "50"
+  pmid: "42133097"
+  doi: "10.1007/s10916-026-02404-2"
+
 - title: "Association of Liver Fibrosis Fibrosis-4 Score with Perioperative Complications and Mortality: A Retrospective Multicenter Analysis"
   authors: "Zelber-Sagi S, O'Reilly-Shah VN, Khanna AK, Rock P, Bentov I, MPOG PCRC Collaborative Authors"
   journal: "Anesthesiology"
@@ -39,6 +53,15 @@
   year: 2026
   type: preprint
   philpapers: "https://philarchive.org/rec/OREFCR"
+
+- title: "A caveat regarding the unfolding argument: implications of plasticity"
+  authors: "O'Reilly-Shah VN, Selvitella AM, Schurger A"
+  journal: "Neuroscience of Consciousness"
+  year: 2026
+  volume: "2026(1)"
+  pages: "niag027"
+  doi: "10.1093/nc/niag027"
+  philpapers: "https://philarchive.org/rec/OREACR"
 
 # ---------- 2025 ----------
 
@@ -116,14 +139,6 @@
   journal: "Paediatric Anaesthesia"
   year: 2025
   pmid: "40552438"
-
-- title: "A Caveat Regarding the Unfolding Argument: Implications of Plasticity"
-  authors: "O'Reilly-Shah VN, Selvitella A, Schurger A"
-  journal: "bioRxiv"
-  year: 2025
-  doi: "10.1101/2025.11.04.686457"
-  philpapers: "https://philarchive.org/rec/OREACR"
-  type: preprint
 
 - title: "Computational dynamic monism: Process metaphysics for the state space theory of consciousness"
   authors: "O'Reilly-Shah V"

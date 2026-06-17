@@ -1,5 +1,14 @@
 # shahlab.org - Project State
 
+## Last Updated: 2026-06-16
+
+### 2026-06-16 Publications update
+- Preprint links now labeled "Preprint" instead of "Open Access". Template logic in `themes/shahlab/layouts/publications/list.html` keys off `type: preprint`; consciousness-science.md preprint links (CDM, smooth embeddings, Chinese Rooms) updated by hand.
+- Published-paper open-access copies (JCS, NDPLS) keep the "Open Access" label.
+- Caveats paper updated from bioRxiv preprint to published: Neuroscience of Consciousness 2026;2026(1):niag027, doi 10.1093/nc/niag027 (verified via Crossref/OUP). Updated in both publications.yaml and consciousness-science.md.
+- Added two 2026 journal articles (verified via Crossref): El-Khatib et al., intraoperative mechanical power and PPCs (J Anesth Analg Crit Care, doi 10.1186/s44158-026-00423-6); Mudumbai et al., LLMs for semantic interoperability (J Med Syst 2026;50, PMID 42133097, doi 10.1007/s10916-026-02404-2).
+- Steck phosphate/lactic-acidosis paper was already present; not duplicated.
+
 ## Last Updated: 2026-04-07
 
 ## Status: Live (pending DNS propagation)
