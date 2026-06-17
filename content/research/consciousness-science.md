@@ -9,7 +9,7 @@ This is my primary theoretical research program.
 
 The State Space Theory (SST) of consciousness proposes that consciousness is constituted by hierarchical delay coordinate embedding in plastic recurrent neural networks. The core ideas require explanation. Delay coordinate embedding is a technique from dynamical systems theory: you take a time series and arrange time-delayed copies of the signal into a higher-dimensional space, reconstructing the geometry of the underlying attractor. Takens' theorem guarantees that this reconstruction preserves the topology of the original system. SST holds that biological neural networks perform this operation on their own activity, and that the resulting reconstructed state space is the physical substrate of conscious experience.
 
-I published the core theory in the *Journal of Consciousness Studies* in 2025 ([Open Access](https://philarchive.org/rec/OREDCE-2)). A unification paper extending SST and connecting it to existing frameworks (IIT, Global Workspace Theory, Higher-Order Theories) is published in *Nonlinear Dynamics, Psychology, and Life Sciences* (2026). SST and CDM are listed on Robert Lawrence Kuhn's [Landscape of Consciousness](https://loc.closertotruth.com/theory/oreilly-shahs-state-space-theory-and-computational-dynamic-monism) at Closer to Truth.
+I published the core theory in the *Journal of Consciousness Studies* in 2025 ([Preprint](https://philarchive.org/rec/OREDCE-2)). A unification paper extending SST and connecting it to existing frameworks (IIT, Global Workspace Theory, Higher-Order Theories) is published in *Nonlinear Dynamics, Psychology, and Life Sciences* (2026). SST and CDM are listed on Robert Lawrence Kuhn's [Landscape of Consciousness](https://loc.closertotruth.com/theory/oreilly-shahs-state-space-theory-and-computational-dynamic-monism) at Closer to Truth.
 
 ### Computational Dynamic Monism
 
@@ -29,11 +29,11 @@ I analyze Searle's Chinese Room argument through the lens of SST and dynamical s
 
 ### Publications and Preprints
 
-- O'Reilly-Shah VN. Delay coordinate embedding as neuronally implemented information processing: The state space theory of consciousness. *Journal of Consciousness Studies*, 32(1-2):127-159, 2025. [Open Access](https://philarchive.org/rec/OREDCE-2)
+- O'Reilly-Shah VN. Delay coordinate embedding as neuronally implemented information processing: The state space theory of consciousness. *Journal of Consciousness Studies*, 32(1-2):127-159, 2025. [Preprint](https://philarchive.org/rec/OREDCE-2)
 - O'Reilly-Shah VN. State space theory as a unifying framework for consciousness. *Nonlinear Dynamics, Psychology, and Life Sciences*, 2026. [PubMed](https://pubmed.ncbi.nlm.nih.gov/41913525/) | [Open Access](https://www.societyforchaostheory.org/ndpls/askFILE/?docObjId=300202ARTICLE)
 - O'Reilly-Shah VN. Computational dynamic monism: Process metaphysics for the state space theory of consciousness. 2025. [Preprint](https://philarchive.org/rec/ORECDM)
 - O'Reilly-Shah VN, Selvitella AM. Embedding of low-dimensional sensory dynamics in recurrent networks: Implications for the geometry of neural representation. 2026. [Preprint](https://philarchive.org/rec/ORESEC)
-- O'Reilly-Shah VN, Selvitella AM, Schurger A. A caveat regarding the unfolding argument: implications of plasticity. *Neuroscience of Consciousness*, 2026(1):niag027, 2026. [DOI](https://doi.org/10.1093/nc/niag027) | [Open Access](https://philarchive.org/rec/OREACR)
+- O'Reilly-Shah VN, Selvitella AM, Schurger A. A caveat regarding the unfolding argument: implications of plasticity. *Neuroscience of Consciousness*, 2026(1):niag027, 2026. [DOI](https://doi.org/10.1093/nc/niag027) | [Preprint](https://philarchive.org/rec/OREACR)
 - O'Reilly-Shah VN. From Chinese Rooms to language models: Plasticity, process, and the limits of internalization. 2026. [Preprint](https://philarchive.org/rec/OREFCR)
 - O'Reilly-Shah VN, Krippner S. The chaos-state space dream model: Integrating phenomenology and neurodynamics in dream consciousness. 2025.
 
