@@ -45,7 +45,15 @@
   year: 2026
   doi: "10.48550/arXiv.2601.19019"
   type: preprint
-  philpapers: "https://philarchive.org/rec/ORESEC"
+  philpapers: "https://philpapers.org/rec/ORESEI"
+
+- title: "Temporal Structure Contains Geometric Structure: From Takens' Theorem to Structuralist Quality Spaces"
+  authors: "O'Reilly-Shah VN"
+  journal: "SSRN"
+  year: 2026
+  type: preprint
+  ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6491118"
+  philpapers: "https://philpapers.org/rec/ORETSC-3"
 
 - title: "From Chinese Rooms to Language Models: Plasticity, Process, and the Limits of Internalization"
   authors: "O'Reilly-Shah VN"

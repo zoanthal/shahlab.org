@@ -47,6 +47,7 @@
                 {{ with .pmid }}<a href="https://pubmed.ncbi.nlm.nih.gov/{{ . }}" class="pub-link pub-link-pmid" target="_blank" rel="noopener">PubMed</a>{{ end }}
                 {{ with .pdf }}<a href="{{ . | relURL }}" class="pub-link pub-link-pdf">PDF</a>{{ end }}
                 {{ with .code }}<a href="{{ . }}" class="pub-link pub-link-code" target="_blank" rel="noopener">Code</a>{{ end }}
+                {{ with .ssrn }}<a href="{{ . }}" class="pub-link pub-link-ssrn" target="_blank" rel="noopener">SSRN</a>{{ end }}
                 {{ with .philpapers }}
                   {{ $url := lower . }}
                   {{ $isPreprintLink := or (in $url "rxiv") (in $url "ssrn") (in $url "philarchive") (in $url "philpapers") (in $url "osf.io") }}

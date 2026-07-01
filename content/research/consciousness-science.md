@@ -17,7 +17,7 @@ SST requires a metaphysics. Computational Dynamic Monism (CDM) provides it. CDM 
 
 ### Mathematical Foundations
 
-With Alessandro Selvitella at Purdue Fort Wayne, I work on the formal underpinnings of SST. The central question: when do recurrent networks develop smooth internal manifolds that embed their sensory inputs? This is not an abstract exercise. SST makes a specific claim about what kinds of dynamical systems can support consciousness, and the math has to back it up. We characterize the class of systems capable of delay coordinate reconstructions under biologically plausible constraints: contraction, plasticity, finite dimensionality. ([Preprint](https://philarchive.org/rec/ORESEC))
+With Alessandro Selvitella at Purdue Fort Wayne, I work on the formal underpinnings of SST. The central question: when do recurrent networks develop smooth internal manifolds that embed their sensory inputs? This is not an abstract exercise. SST makes a specific claim about what kinds of dynamical systems can support consciousness, and the math has to back it up. We characterize the class of systems capable of delay coordinate reconstructions under biologically plausible constraints: contraction, plasticity, finite dimensionality. ([Preprint](https://philpapers.org/rec/ORESEI))
 
 ### The Unfolding Argument
 
@@ -32,8 +32,9 @@ I analyze Searle's Chinese Room argument through the lens of SST and dynamical s
 - O'Reilly-Shah VN. Delay coordinate embedding as neuronally implemented information processing: The state space theory of consciousness. *Journal of Consciousness Studies*, 32(1-2):127-159, 2025. [Preprint](https://philarchive.org/rec/OREDCE-2)
 - O'Reilly-Shah VN. State space theory as a unifying framework for consciousness. *Nonlinear Dynamics, Psychology, and Life Sciences*, 2026. [PubMed](https://pubmed.ncbi.nlm.nih.gov/41913525/) | [Open Access](https://www.societyforchaostheory.org/ndpls/askFILE/?docObjId=300202ARTICLE)
 - O'Reilly-Shah VN. Computational dynamic monism: Process metaphysics for the state space theory of consciousness. 2025. [Preprint](https://philarchive.org/rec/ORECDM)
-- O'Reilly-Shah VN, Selvitella AM. Embedding of low-dimensional sensory dynamics in recurrent networks: Implications for the geometry of neural representation. 2026. [Preprint](https://philarchive.org/rec/ORESEC)
+- O'Reilly-Shah VN, Selvitella AM. Embedding of low-dimensional sensory dynamics in recurrent networks: Implications for the geometry of neural representation. 2026. [Preprint](https://philpapers.org/rec/ORESEI)
 - O'Reilly-Shah VN, Selvitella AM, Schurger A. A caveat regarding the unfolding argument: implications of plasticity. *Neuroscience of Consciousness*, 2026(1):niag027, 2026. [DOI](https://doi.org/10.1093/nc/niag027) | [Preprint](https://philarchive.org/rec/OREACR)
+- O'Reilly-Shah VN. Temporal structure contains geometric structure: From Takens' theorem to structuralist quality spaces. 2026. [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6491118) | [Preprint](https://philpapers.org/rec/ORETSC-3)
 - O'Reilly-Shah VN. From Chinese Rooms to language models: Plasticity, process, and the limits of internalization. 2026. [Preprint](https://philarchive.org/rec/OREFCR)
 - O'Reilly-Shah VN, Krippner S. The chaos-state space dream model: Integrating phenomenology and neurodynamics in dream consciousness. 2025.
 
