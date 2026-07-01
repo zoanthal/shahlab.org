@@ -1,5 +1,14 @@
 # shahlab.org - Project State
 
+## Last Updated: 2026-07-01
+
+### 2026-07-01 Publications update
+- Preprint label logic switched to host-based detection (any link containing rxiv/ssrn/philarchive/philpapers/osf.io renders "Preprint"; journal-hosted OA like NDPLS societyforchaostheory stays "Open Access"). Logic in `themes/shahlab/layouts/publications/list.html`.
+- Added the "Temporal Structure Contains Geometric Structure: From Takens' Theorem to Structuralist Quality Spaces" 2026 preprint (SSRN abstract_id=6491118, PhilPapers ORETSC-3) to publications.yaml and the consciousness page.
+- Added `ssrn:` field support to the publications template (renders an "SSRN" link).
+- Fixed broken smooth embeddings preprint link: philarchive.org/rec/ORESEC -> philpapers.org/rec/ORESEI (publications.yaml + consciousness-science.md).
+- Commit 4caf4e4 pushed to main.
+
 ## Last Updated: 2026-06-16
 
 ### 2026-06-16 Publications update
