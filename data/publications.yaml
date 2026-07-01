@@ -48,6 +48,14 @@
   type: preprint
   philpapers: "https://philpapers.org/rec/ORESEI"
 
+- title: "Neural Manifolds as Crystallized Embeddings: A Synthesis of the Free Energy Principle, Generalized Synchronization, and Hebbian Plasticity"
+  authors: "O'Reilly-Shah VN"
+  journal: "arXiv [q-Bio.NC]"
+  year: 2026
+  doi: "10.48550/arXiv.2605.04200"
+  type: preprint
+  philpapers: "https://philpapers.org/rec/ORENMA"
+
 - title: "Temporal Structure Contains Geometric Structure: From Takens' Theorem to Structuralist Quality Spaces"
   authors: "O'Reilly-Shah VN"
   journal: "SSRN"
