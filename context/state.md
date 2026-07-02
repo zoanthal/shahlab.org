@@ -1,5 +1,17 @@
 # shahlab.org - Project State
 
+## Last Updated: 2026-07-02
+
+### 2026-07-02 Publications topic filters
+- Added shareable topic-cluster filtering to the Publications page alongside the existing year filter.
+- Every entry in `data/publications.yaml` now carries a `tags:` list. Cluster vocabulary (7): "Consciousness Science", "MPOG", "AI & Informatics", "Pediatric Anesthesia", "Global & Public Health", "Clinical Anesthesia", "Ion Channel Biophysics". Multi-tag allowed.
+- Template `themes/shahlab/layouts/publications/list.html` tallies tag frequency and renders topic buttons dynamically (ordered by count, with counts shown); each card gets `data-year` + `data-topics` (urlize slugs) and visible clickable tag chips.
+- JS `themes/shahlab/static/js/main.js` rewritten: combinable topic AND year filters, per-card show/hide, empties year-group headers, empty-state message, URL query sync (?topic=slug&year=YYYY) via history.replaceState, and a clear (×) control that appears when a filter is active. Tag chips reuse the same delegated handler.
+- CSS `themes/shahlab/static/css/main.css`: added `.publication-filters`, `.filter-label`, `.filter-count`, `.filter-clear`, `.pub-tags`/`.pub-tag`, `.pub-link-ssrn`, `.pub-empty`.
+- Verified: Hugo build clean; headless simulation of the filter decision against 79 rendered cards (topic counts match buttons; combined + empty combos correct; no card missing tags). Browser extension was not connected, so no live click test.
+- Also added earlier this session: Temporal Structure preprint (SSRN+PhilPapers), Neural Manifolds preprint, PubMed links for Caveats (42311779) and El-Khatib (42231507), and fixed the smooth embeddings link to philpapers/ORESEI.
+- Commit d0a8036 pushed to main.
+
 ## Last Updated: 2026-07-01
 
 ### 2026-07-01 Publications update
