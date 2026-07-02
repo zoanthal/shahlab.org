@@ -666,6 +666,29 @@ ul, ol { padding-left: 1.5em; margin-bottom: 1em; }
 .pub-link-code:hover { background: #8e44ad; color: white; }
 .pub-link-oa { background: rgba(243,156,18,0.1); color: #e67e22; }
 .pub-link-oa:hover { background: #e67e22; color: white; }
+.pub-link-ssrn { background: rgba(41,128,185,0.1); color: #2980b9; }
+.pub-link-ssrn:hover { background: #2980b9; color: white; }
+
+.pub-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.15rem 0 0.55rem; }
+
+.pub-tag {
+  display: inline-block;
+  padding: 0.14em 0.6em;
+  font-size: 0.68rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--teal);
+  background: var(--teal-dim);
+  border: 1px solid transparent;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all var(--duration) var(--ease);
+}
+
+.pub-tag:hover { border-color: var(--teal); }
+
+.pub-empty { color: var(--text-tertiary); font-style: italic; padding: 1rem 0; }
 
 /* --------------------------------------------------------------------------
    Software
@@ -1031,6 +1054,50 @@ ul, ol { padding-left: 1.5em; margin-bottom: 1em; }
 /* --------------------------------------------------------------------------
    Publication Filters
    -------------------------------------------------------------------------- */
+.publication-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.publication-filters[data-filter-group="year"] {
+  margin-bottom: 2rem;
+}
+
+.filter-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-tertiary);
+  margin-right: 0.3rem;
+}
+
+.filter-count {
+  font-size: 0.72rem;
+  font-weight: 600;
+  opacity: 0.65;
+}
+
+.filter-btn.active .filter-count { opacity: 0.9; }
+
+.filter-clear {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.78rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all var(--duration) var(--ease);
+}
+
+.filter-clear:hover { color: #c0392b; background: rgba(231,76,60,0.08); }
+
 .filter-btn {
   padding: 0.3rem 0.85rem;
   font-size: 0.8rem;

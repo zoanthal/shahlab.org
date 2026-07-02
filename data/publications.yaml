@@ -1,6 +1,11 @@
 # ============================================================
 # Publications — peer-reviewed journal articles, preprints, and book chapters
 # Ordered by year (descending), then alphabetical by first author within year
+#
+# tags: topic clusters used by the Publications page filter.
+#   Allowed values: "Consciousness Science", "MPOG", "AI & Informatics",
+#   "Pediatric Anesthesia", "Global & Public Health", "Clinical Anesthesia",
+#   "Ion Channel Biophysics". A paper may carry more than one tag.
 # ============================================================
 
 # ---------- 2026 ----------
@@ -9,6 +14,7 @@
   authors: "El-Khatib M, HajAli T, Zeeni C, Khalili A, Shreim R, Mathis MR, Abou Nafeh N, Aouad M, O'Reilly-Shah VN, MPOG PCRC Collaborative Authors"
   journal: "Journal of Anesthesia, Analgesia and Critical Care"
   year: 2026
+  tags: ["MPOG"]
   pmid: "42231507"
   doi: "10.1186/s44158-026-00423-6"
 
@@ -16,6 +22,7 @@
   authors: "Mudumbai SC, O'Reilly-Shah VN, Han L, Rothman BS"
   journal: "Journal of Medical Systems"
   year: 2026
+  tags: ["AI & Informatics"]
   volume: "50"
   pmid: "42133097"
   doi: "10.1007/s10916-026-02404-2"
@@ -24,12 +31,14 @@
   authors: "Zelber-Sagi S, O'Reilly-Shah VN, Khanna AK, Rock P, Bentov I, MPOG PCRC Collaborative Authors"
   journal: "Anesthesiology"
   year: 2025
+  tags: ["MPOG"]
   pmid: "41191454"
 
 - title: "Incidence of phosphate abnormalities after cardiac surgery and their association with lactic acidosis: A cohort study from the Multicenter Perioperative Outcomes Group"
   authors: "Steck DT, Silliman WL, Li R, O'Reilly-Shah VN, Mathis M, Domino K, Togashi K, Jelacic S"
   journal: "Journal of Clinical Anesthesia"
   year: 2026
+  tags: ["MPOG"]
   pmid: "41785615"
   doi: "10.1016/j.jclinane.2026.112157"
 
@@ -37,6 +46,7 @@
   authors: "O'Reilly-Shah VN"
   journal: "Nonlinear Dynamics, Psychology, and Life Sciences"
   year: 2026
+  tags: ["Consciousness Science"]
   pmid: "41913525"
   philpapers: "https://www.societyforchaostheory.org/ndpls/askFILE/?docObjId=300202ARTICLE"
 
@@ -44,6 +54,7 @@
   authors: "O'Reilly-Shah VN, Selvitella AM"
   journal: "arXiv [q-Bio.NC]"
   year: 2026
+  tags: ["Consciousness Science"]
   doi: "10.48550/arXiv.2601.19019"
   type: preprint
   philpapers: "https://philpapers.org/rec/ORESEI"
@@ -52,6 +63,7 @@
   authors: "O'Reilly-Shah VN"
   journal: "arXiv [q-Bio.NC]"
   year: 2026
+  tags: ["Consciousness Science"]
   doi: "10.48550/arXiv.2605.04200"
   type: preprint
   philpapers: "https://philpapers.org/rec/ORENMA"
@@ -60,6 +72,7 @@
   authors: "O'Reilly-Shah VN"
   journal: "SSRN"
   year: 2026
+  tags: ["Consciousness Science"]
   type: preprint
   ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6491118"
   philpapers: "https://philpapers.org/rec/ORETSC-3"
@@ -68,6 +81,7 @@
   authors: "O'Reilly-Shah VN"
   journal: "SSRN"
   year: 2026
+  tags: ["Consciousness Science"]
   type: preprint
   philpapers: "https://philarchive.org/rec/OREFCR"
 
@@ -75,6 +89,7 @@
   authors: "O'Reilly-Shah VN, Selvitella AM, Schurger A"
   journal: "Neuroscience of Consciousness"
   year: 2026
+  tags: ["Consciousness Science"]
   volume: "2026(1)"
   pages: "niag027"
   doi: "10.1093/nc/niag027"
@@ -87,24 +102,28 @@
   authors: "Mathis MR, Mentz GB, Cao J, et al., Kheterpal S, MPOG Collaborators"
   journal: "JAMA Network Open"
   year: 2025
+  tags: ["MPOG"]
   pmid: "40314957"
 
 - title: "Multicenter Validation of a Machine Learning Model for Surgical Transfusion Risk at 45 US Hospitals"
   authors: "Lou SS, Kumar S, Goss CW, Avidan MS, Kheterpal S, Kannampallil T, Multicenter Perioperative Outcomes Group"
   journal: "JAMA Network Open"
   year: 2025
+  tags: ["MPOG", "AI & Informatics"]
   pmid: "40577014"
 
 - title: "Identifying variation in intraoperative management of brain-dead organ donors"
   authors: "Lele AV, Vail EA, O'Reilly-Shah VN, DeGraw X, Domino KB, Walters AM, et al."
   journal: "Anesthesia & Analgesia"
   year: 2024
+  tags: ["MPOG"]
   pmid: "39167559"
 
 - title: "Delay coordinate embedding as neuronally implemented information processing: The state space theory of consciousness"
   authors: "O'Reilly-Shah VN"
   journal: "Journal of Consciousness Studies"
   year: 2025
+  tags: ["Consciousness Science"]
   volume: "32(1-2)"
   pages: "127-159"
   doi: "10.53765/20512201.32.1.132"
@@ -114,54 +133,63 @@
   authors: "Steck DT, Mostofi N, Togashi K, Li R, Wu D, Wells L, Fong CT, Tillinghast K, O'Reilly-Shah VN, Jelacic S"
   journal: "Anesthesia & Analgesia"
   year: 2024
+  tags: ["Clinical Anesthesia"]
   pmid: "39466661"
 
 - title: "Practice Pattern Variability in Use of Pulmonary Artery Catheters in Cardiac Surgery"
   authors: "MacKay EJ, Zhang B, Beaty JM, Devine KA, O'Reilly-Shah V, Mathis MR, et al."
   journal: "Journal of Cardiothoracic and Vascular Anesthesia"
   year: 2025
+  tags: ["MPOG"]
   pmid: "40915872"
 
 - title: "Practice variation in intraoperative management of pediatric organ donation after brain death"
   authors: "Yao PY, Lele AV, Souter MJ, Vail EA, deGrauw XG, Fong CT, Naik BI, Schonberger RB, O'Reilly-Shah VN, MPOG Collaborators"
   journal: "Paediatric Anaesthesia"
   year: 2025
+  tags: ["MPOG", "Pediatric Anesthesia"]
   pmid: "41031649"
 
 - title: "Single-Center Descriptive Analysis of Interventions for Hypotension in Children"
   authors: "McLaughlin CS, O'Reilly-Shah VN, et al."
   journal: "Paediatric Anaesthesia"
   year: 2025
+  tags: ["Pediatric Anesthesia"]
   pmid: "40787969"
 
 - title: "Sharing anesthetic records with patients: An opportunity to embrace transparency"
   authors: "Xie J, Gessner D, Ramaswamy P, Tan JM, Guffey P, et al., O'Reilly-Shah V"
   journal: "Anesthesiology"
   year: 2025
+  tags: ["AI & Informatics"]
   pmid: "40197454"
 
 - title: "Development and evaluation of machine learning models for the identification of surgical site infection in electronic health records"
   authors: "Chakraborty A, Lybarger K, Estebane JAO, Chen JY, Patel M, O'Reilly-Shah V, Tarczy-Hornoch P, Yetisgen M, Long DR"
   journal: "Surgical Infections"
   year: 2025
+  tags: ["AI & Informatics"]
   pmid: "40160123"
 
 - title: "Narrative review of electronic health record systems in anesthesia"
   authors: "Tewfik G, Minzter B, Chiao F, Zivot J, Wecksell M, Simpao AF, CIIT Collaborators, O'Reilly-Shah V, et al."
   journal: "Journal of Medical Systems"
   year: 2025
+  tags: ["AI & Informatics"]
   pmid: "40545522"
 
 - title: "Harnessing generative artificial intelligence in pediatric anesthesia"
   authors: "Siddiqui A, O'Reilly-Shah VN, Simpao AF, Lonsdale H"
   journal: "Paediatric Anaesthesia"
   year: 2025
+  tags: ["AI & Informatics", "Pediatric Anesthesia"]
   pmid: "40552438"
 
 - title: "Computational dynamic monism: Process metaphysics for the state space theory of consciousness"
   authors: "O'Reilly-Shah V"
   journal: "SSRN Electronic Journal"
   year: 2025
+  tags: ["Consciousness Science"]
   doi: "10.2139/ssrn.6042716"
   philpapers: "https://philarchive.org/rec/ORECDM"
   type: preprint
@@ -172,60 +200,70 @@
   authors: "Chung P, Fong CT, Walters AM, Aghaeepour N, Yetisgen M, O'Reilly-Shah VN"
   journal: "JAMA Surgery"
   year: 2024
+  tags: ["AI & Informatics"]
   pmid: "38837145"
 
 - title: "Predicting out-of-hospital cardiac arrest in the general population using electronic health records"
   authors: "Perry J, Brody JA, Fong C, Sunshine JE, O'Reilly-Shah VN, et al."
   journal: "Circulation"
   year: 2024
+  tags: ["AI & Informatics"]
   pmid: "38860364"
 
 - title: "Perioperative Mortality of the COVID-19 Recovered Patient Compared to a Matched Control"
   authors: "Aziz MF, Schenning K, Koike S, O'Glasser A, O'Reilly-Shah VN, Sera V, Mathis M"
   journal: "Anesthesiology"
   year: 2024
+  tags: ["MPOG", "Global & Public Health"]
   pmid: "37844271"
 
 - title: "Association between inspired oxygen and postoperative pulmonary complications"
   authors: "Douville NJ, et al., O'Reilly-Shah VN, MPOG Collaborative"
   journal: "British Journal of Anaesthesia"
   year: 2024
+  tags: ["MPOG"]
   pmid: "39266439"
 
 - title: "Supercharge your academic productivity with generative artificial intelligence"
   authors: "Lonsdale H, O'Reilly-Shah VN, Padiyath A, Simpao AF"
   journal: "Journal of Medical Systems"
   year: 2024
+  tags: ["AI & Informatics"]
   pmid: "39115560"
 
 - title: "Impact of Ketorolac on Reoperation for Hemorrhage After Pediatric Tonsillectomy"
   authors: "Feldman RM, O'Reilly-Shah VN, Dahl JP, et al."
   journal: "Otolaryngology - Head and Neck Surgery"
   year: 2024
+  tags: ["Pediatric Anesthesia"]
   pmid: "37925621"
 
 - title: "ASPIRE Quality Metrics in Patients Undergoing Decompressive Craniectomy and Endoscopic Clot Evacuation"
   authors: "Lele AV, Fong CT, Newman SF, O'Reilly-Shah V, et al."
   journal: "Journal of Neurosurgical Anesthesiology"
   year: 2024
+  tags: ["MPOG"]
   pmid: "36941123"
 
 - title: "Public health informatics and the perioperative physician"
   authors: "Mudumbai SC, et al., O'Reilly-Shah VN"
   journal: "Anesthesia & Analgesia"
   year: 2024
+  tags: ["AI & Informatics", "Global & Public Health"]
   pmid: "38215706"
 
 - title: "Intraoperative prophylaxis with Palonosetron for postoperative nausea and vomiting in cardiac surgery"
   authors: "Estrada Alamo CE, et al., O'Reilly-Shah VN"
   journal: "Journal of Cardiothoracic and Vascular Anesthesia"
   year: 2024
+  tags: ["Clinical Anesthesia"]
   pmid: "38472029"
 
 - title: "Hyperammonemia is associated with reduced objective anesthetic requirements in children"
   authors: "O'Reilly-Shah VN, Van Cleve W, Walters A, Hunyady AI, Morgan PG, Li L, Polaner DM"
   journal: "Paediatric Anaesthesia"
   year: 2024
+  tags: ["Pediatric Anesthesia"]
   pmid: "38226795"
 
 # ---------- 2023 ----------
@@ -234,18 +272,21 @@
   authors: "Chung P, Fong CT, Walters AM, Yetisgen M, O'Reilly-Shah VN"
   journal: "BMC Anesthesiology"
   year: 2023
+  tags: ["AI & Informatics"]
   pmid: "37667258"
 
 - title: "Cardiometabolic disease and obesity patterns differentially predict acute kidney injury after total joint replacement"
   authors: "Leis AM, Mathis MR, Kheterpal S, et al., O'Reilly-Shah VN, et al."
   journal: "British Journal of Anaesthesia"
   year: 2023
+  tags: ["MPOG"]
   pmid: "37188560"
 
 - title: "Evaluating regional analgesia in children with spina bifida undergoing surgery"
   authors: "Moore RP, Burjek NE, Brockel MA, et al., O'Reilly-Shah VN"
   journal: "Regional Anesthesia and Pain Medicine"
   year: 2023
+  tags: ["Pediatric Anesthesia"]
   pmid: "36167478"
 
 # ---------- 2022 ----------
@@ -254,18 +295,21 @@
   authors: "Zelber-Sagi S, O'Reilly-Shah VN, Fong C, et al."
   journal: "Anesthesia & Analgesia"
   year: 2022
+  tags: ["Clinical Anesthesia"]
   pmid: "35417420"
 
 - title: "Completion of an enhanced recovery program in a pediatric ambulatory surgery center"
   authors: "Martin LD, Chiem JL, Hansen EE, et al., O'Reilly-Shah VN"
   journal: "Anesthesia & Analgesia"
   year: 2022
+  tags: ["Pediatric Anesthesia"]
   pmid: "36384014"
 
 - title: "Healthcare-associated respiratory tract infections in neurocritical care"
   authors: "Ershova K, et al., O'Reilly-Shah VN"
   journal: "Journal of Clinical Neuroscience"
   year: 2022
+  tags: ["Clinical Anesthesia"]
   pmid: "35033779"
 
 # ---------- 2021 ----------
@@ -274,48 +318,56 @@
   authors: "Long DR, Gombar S, Hogan CA, et al., O'Reilly-Shah VN, et al."
   journal: "Clinical Infectious Diseases"
   year: 2021
+  tags: ["Global & Public Health"]
   pmid: "32506118"
 
 - title: "A continuously benchmarked and crowdsourced challenge for rapid development and evaluation of models to predict COVID-19 diagnosis and hospitalization"
   authors: "Yan Y, Schaffter T, Bergquist T, et al., DREAM Challenge Consortium"
   journal: "JAMA Network Open"
   year: 2021
+  tags: ["AI & Informatics", "Global & Public Health"]
   pmid: "34633425"
 
 - title: "Transgender patient care: a prospective survey of pediatric anesthesiologist attitudes and knowledge"
   authors: "Roque RA, O'Reilly-Shah V, Lorello GR, Adams T, Cladis F"
   journal: "Canadian Journal of Anaesthesia"
   year: 2021
+  tags: ["Pediatric Anesthesia"]
   pmid: "34405355"
 
 - title: "Training the trainers in ultrasound-guided intravenous access"
   authors: "O'Reilly-Shah VN, et al."
   journal: "Pediatric Quality and Safety"
   year: 2021
+  tags: ["Pediatric Anesthesia"]
   pmid: "33977194"
 
 - title: "Development and Validation of ARC, a Model for Anticipating Acute Respiratory Failure in COVID-19 Patients"
   authors: "Saria S, Schulam P, Yeh BJ, et al., O'Reilly-Shah VN"
   journal: "Critical Care Explorations"
   year: 2021
+  tags: ["AI & Informatics", "Global & Public Health"]
   pmid: "34104894"
 
 - title: "Regional anesthesia educational material utilization by income category"
   authors: "Moll V, et al., O'Reilly-Shah VN"
   journal: "PLoS One"
   year: 2021
+  tags: ["Global & Public Health"]
   pmid: "33524031"
 
 - title: "Implementation of App-Based Diabetes Medication Management: Outpatient and Perioperative Clinical Decision Support"
   authors: "Jang J, Colletti AA, Ricklefs C, et al., O'Reilly-Shah VN"
   journal: "Current Diabetes Reports"
   year: 2021
+  tags: ["AI & Informatics"]
   pmid: "34902056"
 
 - title: "Erector spinae regional anesthesia for robotic coronary artery bypass graft surgery"
   authors: "Moll V, et al., O'Reilly-Shah VN"
   journal: "Journal of Cardiothoracic and Vascular Anesthesia"
   year: 2021
+  tags: ["Clinical Anesthesia"]
   pmid: "33127286"
 
 # ---------- 2020 ----------
@@ -324,42 +376,49 @@
   authors: "O'Reilly-Shah VN, Gentry KR, Walters AM, Zivot J, Anderson CT, Tighe PJ"
   journal: "British Journal of Anaesthesia"
   year: 2020
+  tags: ["AI & Informatics"]
   pmid: "32838979"
 
 - title: "The COVID-19 Pandemic Highlights Shortcomings in US Health Care Informatics Infrastructure: A Call to Action"
   authors: "O'Reilly-Shah VN, Gentry KR, Van Cleve W, Kendale SM, Jabaley CS, Long DR"
   journal: "Anesthesia & Analgesia"
   year: 2020
+  tags: ["AI & Informatics", "Global & Public Health"]
   pmid: "32366769"
 
 - title: "Impact of COVID-19 response on global surgical volumes: an ongoing observational study"
   authors: "O'Reilly-Shah VN, Van Cleve W, Long DR, Moll V, Evans FM, Sunshine JE, Kassebaum NJ, Harrison EM, Jabaley CS"
   journal: "Bulletin of the World Health Organization"
   year: 2020
+  tags: ["Global & Public Health"]
   pmid: "33177757"
 
 - title: "Cannabis use is associated with a small increase in the risk of postoperative nausea and vomiting"
   authors: "Suhre W, O'Reilly-Shah V, Van Cleve W"
   journal: "BMC Anesthesiology"
   year: 2020
+  tags: ["Clinical Anesthesia"]
   pmid: "32423445"
 
 - title: "Perioperative Management of Pediatric Patients With Type 1 Diabetes Mellitus, Updated Recommendations for Anesthesiologists"
   authors: "Martin LD, et al., O'Reilly-Shah VN, SPA Collaborative"
   journal: "Anesthesia & Analgesia"
   year: 2020
+  tags: ["Pediatric Anesthesia"]
   pmid: "31688079"
 
 - title: "Human-machine interface in anesthesiology"
   authors: "Jabaley CS, et al., O'Reilly-Shah VN"
   journal: "Anesthesia & Analgesia"
   year: 2020
+  tags: ["AI & Informatics"]
   pmid: "32287132"
 
 - title: "Incidence of healthcare-associated COVID-19 during hospitalization"
   authors: "Long DR, et al., O'Reilly-Shah VN"
   journal: "Open Forum Infectious Diseases"
   year: 2020
+  tags: ["Global & Public Health"]
   pmid: "33088847"
 
 # ---------- 2019 ----------
@@ -368,24 +427,28 @@
   authors: "Stentz MJ, et al., O'Reilly-Shah VN"
   journal: "ASAIO Journal"
   year: 2018
+  tags: ["Clinical Anesthesia"]
   pmid: "30247176"
 
 - title: "Lack of association between handoff of anesthesia care and adverse postoperative outcomes"
   authors: "O'Reilly-Shah VN, et al."
   journal: "BMC Anesthesiology"
   year: 2019
+  tags: ["Clinical Anesthesia"]
   pmid: "31615410"
 
 - title: "A Preoperative Cognitive Screening Test Predicts Increased Length of Stay in a Frail Population"
   authors: "O'Reilly-Shah VN, Hemani S, Davari P, et al."
   journal: "Anesthesia & Analgesia"
   year: 2019
+  tags: ["Clinical Anesthesia"]
   pmid: "30882522"
 
 - title: "Sepsis information-seeking via Wikipedia"
   authors: "Jabaley CS, et al., O'Reilly-Shah VN"
   journal: "PLoS One"
   year: 2019
+  tags: ["Global & Public Health", "AI & Informatics"]
   pmid: "31437248"
 
 # ---------- 2018 ----------
@@ -394,66 +457,77 @@
   authors: "Jabaley CS, Blum JM, Groff RF, O'Reilly-Shah VN"
   journal: "Critical Care"
   year: 2018
+  tags: ["Global & Public Health", "AI & Informatics"]
   pmid: "29343292"
 
 - title: "Serratus anterior plane block for minimally invasive direct coronary artery bypass surgery"
   authors: "Moll V, et al., O'Reilly-Shah VN"
   journal: "Journal of Cardiothoracic and Vascular Anesthesia"
   year: 2018
+  tags: ["Clinical Anesthesia"]
   pmid: "30037575"
 
 - title: "Variable effectiveness of stepwise implementation of nudge-type interventions to improve provider compliance with intraoperative low tidal volume ventilation"
   authors: "O'Reilly-Shah VN, Easton G, Jabaley CS, Lynde GC"
   journal: "BMJ Quality & Safety"
   year: 2018
+  tags: ["Clinical Anesthesia"]
   pmid: "29776982"
 
 - title: "Highly visible sepsis publications from 2012 to 2017: Analysis and comparison of altmetrics and bibliometrics"
   authors: "Jabaley CS, et al., O'Reilly-Shah VN"
   journal: "Journal of Critical Care"
   year: 2018
+  tags: ["Global & Public Health", "AI & Informatics"]
   pmid: "30296750"
 
 - title: "Is it time to start using the emoji in biomedical literature?"
   authors: "O'Reilly-Shah VN, Lynde GC, Jabaley CS"
   journal: "BMJ"
   year: 2018
+  tags: ["AI & Informatics"]
   pmid: "30541905"
 
 - title: "Crowdsourcing adverse events associated with sugammadex and neostigmine use"
   authors: "Jabaley CS, et al., O'Reilly-Shah VN"
   journal: "Therapeutic Advances in Drug Safety"
   year: 2018
+  tags: ["AI & Informatics", "Global & Public Health"]
   pmid: "30034775"
 
 - title: "Evidence for increased use of the SPA Critical Events Checklist in resource-limited environments"
   authors: "O'Reilly-Shah VN, Kitzman J, Jabaley CS, Lynde GC"
   journal: "Paediatric Anaesthesia"
   year: 2018
+  tags: ["Pediatric Anesthesia", "Global & Public Health"]
   pmid: "29285834"
 
 - title: "Determination of ED50 and time to effectiveness for intrathecal hydromorphone in laboring patients using Dixon's up-and-down sequential allocation method"
   authors: "O'Reilly-Shah VN, Lynde GC"
   journal: "BMC Anesthesiology"
   year: 2018
+  tags: ["Clinical Anesthesia"]
   pmid: "30290794"
 
 - title: "Initial experience with the unrestricted introduction of sugammadex at a large academic medical center"
   authors: "O'Reilly-Shah VN, Lynde GC, Mitchell ML, Maffeo CL, Jabaley CS, Wolf FA"
   journal: "Korean Journal of Anesthesiology"
   year: 2018
+  tags: ["Clinical Anesthesia"]
   pmid: "29843504"
 
 - title: "Pediatric anesthesia mobile app for clinical and educational use"
   authors: "Monroe KS, et al., O'Reilly-Shah VN"
   journal: "Korean Journal of Anesthesiology"
   year: 2018
+  tags: ["Pediatric Anesthesia", "AI & Informatics"]
   pmid: "29739184"
 
 - title: "Chronic antipsychotic use and postoperative nausea and vomiting"
   authors: "Jabaley CS, et al., O'Reilly-Shah VN"
   journal: "Anesthesia & Analgesia"
   year: 2018
+  tags: ["Clinical Anesthesia"]
   pmid: "30585903"
 
 # ---------- 2017 ----------
@@ -462,18 +536,21 @@
   authors: "O'Reilly-Shah VN"
   journal: "PeerJ"
   year: 2017
+  tags: ["AI & Informatics"]
   pmid: "28924502"
 
 - title: "Worldwide assessment of sugammadex usage patterns"
   authors: "O'Reilly-Shah VN, et al."
   journal: "British Journal of Anaesthesia"
   year: 2017
+  tags: ["Global & Public Health", "AI & Informatics"]
   pmid: "28854547"
 
 - title: "Assessing the global reach and value of a provider-facing healthcare app using large-scale analytics"
   authors: "O'Reilly-Shah V, Easton G, Gillespie S"
   journal: "BMJ Global Health"
   year: 2017
+  tags: ["Global & Public Health", "AI & Informatics"]
   pmid: "29082007"
 
 # ---------- 2016 ----------
@@ -482,6 +559,7 @@
   authors: "O'Reilly-Shah VN, Mackey S"
   journal: "JMIR mHealth and uHealth"
   year: 2016
+  tags: ["AI & Informatics"]
   pmid: "27261155"
 
 # ---------- 2012 ----------
@@ -490,6 +568,7 @@
   authors: "Shah VN, Lee JL"
   journal: "Journal of Clinical Anesthesia"
   year: 2012
+  tags: ["Clinical Anesthesia"]
   pmid: "22608593"
 
 # ---------- 2011 ----------
@@ -498,6 +577,7 @@
   authors: "Shah VN, Ngai L"
   journal: "Manual of Clinical Anesthesiology (Chu LF, Fuller A, Eds). Lippincott Williams & Wilkins"
   year: 2011
+  tags: ["Clinical Anesthesia"]
   type: chapter
 
 # ---------- 2006 ----------
@@ -506,12 +586,14 @@
   authors: "Shah VN, Wingo TL, Weiss KL, Williams CK, Balser JR, Chazin WJ"
   journal: "Proceedings of the National Academy of Sciences"
   year: 2006
+  tags: ["Ion Channel Biophysics"]
   pmid: "16505387"
 
 - title: "Calcium-dependent regulation of ion channels"
   authors: "Shah VN, Chagot B, Chazin WJ"
   journal: "Calcium Binding Proteins"
   year: 2006
+  tags: ["Ion Channel Biophysics"]
   pmid: "28757812"
 
 # ---------- 2004 ----------
@@ -520,10 +602,12 @@
   authors: "Wingo TL*, Shah VN*, Anderson ME, Lybrand TP, Chazin WJ, Balser JR (*equal contribution)"
   journal: "Nature Structural & Molecular Biology"
   year: 2004
+  tags: ["Ion Channel Biophysics"]
   pmid: "14981509"
 
 - title: "Calmodulin interacts with the V2 vasopressin receptor"
   authors: "Nickols HH, Shah VN, Chazin WJ, Limbird LE"
   journal: "Journal of Biological Chemistry"
   year: 2004
+  tags: ["Ion Channel Biophysics"]
   pmid: "15319442"

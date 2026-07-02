@@ -22,18 +22,44 @@
       {{ end }}
       {{ $years = sort $years "value" "desc" }}
 
-      <div class="publication-filters" style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:2rem;">
-        <button class="filter-btn active" data-filter="all">All</button>
-        {{ range $years }}
-          <button class="filter-btn" data-filter="{{ . }}">{{ . }}</button>
+      {{/* Tally topic tags across all publications, ordered by frequency */}}
+      {{ $counts := dict }}
+      {{ range . }}
+        {{ range .tags }}
+          {{ $c := add (int (index $counts .)) 1 }}
+          {{ $counts = merge $counts (dict . $c) }}
         {{ end }}
+      {{ end }}
+      {{ $topics := slice }}
+      {{ range $name, $count := $counts }}
+        {{ $topics = $topics | append (dict "name" $name "slug" (urlize $name) "count" $count) }}
+      {{ end }}
+      {{ $topics = sort $topics "count" "desc" }}
+
+      <div class="publication-filters" data-filter-group="topic" aria-label="Filter by topic">
+        <span class="filter-label">Topic</span>
+        <button class="filter-btn active" data-topic="all">All</button>
+        {{ range $topics }}
+          <button class="filter-btn" data-topic="{{ .slug }}">{{ .name }} <span class="filter-count">{{ .count }}</span></button>
+        {{ end }}
+      </div>
+
+      <div class="publication-filters" data-filter-group="year" aria-label="Filter by year">
+        <span class="filter-label">Year</span>
+        <button class="filter-btn active" data-year-filter="all">All</button>
+        {{ range $years }}
+          <button class="filter-btn" data-year-filter="{{ . }}">{{ . }}</button>
+        {{ end }}
+        <button class="filter-clear" hidden>&times; Clear filters</button>
       </div>
 
       {{ range $year := $years }}
         <div class="pub-year-group" data-year="{{ $year }}">
           <h2 class="pub-year">{{ $year }}</h2>
           {{ range where (hugo.Data.publications) "year" $year }}
-            <div class="pub-card">
+            {{ $slugs := slice }}
+            {{ range .tags }}{{ $slugs = $slugs | append (urlize .) }}{{ end }}
+            <div class="pub-card" data-year="{{ .year }}" data-topics="{{ delimit $slugs " " }}">
               <p class="pub-title">{{ .title }}</p>
               <p class="pub-authors">{{ .authors }}</p>
               <p class="pub-journal">
@@ -42,6 +68,13 @@
                 {{ with .pages }}:{{ . }}{{ end }}
                 ({{ .year }})
               </p>
+              {{ with .tags }}
+                <div class="pub-tags">
+                  {{ range . }}
+                    <button class="pub-tag" data-topic="{{ urlize . }}">{{ . }}</button>
+                  {{ end }}
+                </div>
+              {{ end }}
               <div class="pub-links">
                 {{ with .doi }}<a href="https://doi.org/{{ . }}" class="pub-link pub-link-doi" target="_blank" rel="noopener">DOI</a>{{ end }}
                 {{ with .pmid }}<a href="https://pubmed.ncbi.nlm.nih.gov/{{ . }}" class="pub-link pub-link-pmid" target="_blank" rel="noopener">PubMed</a>{{ end }}
@@ -58,6 +91,8 @@
           {{ end }}
         </div>
       {{ end }}
+
+      <p class="pub-empty" hidden>No publications match the selected filters.</p>
     {{ else }}
       {{/* Fallback: render publications from content pages */}}
       {{ if .Pages }}
